@@ -189,6 +189,7 @@ export default function HomePage() {
                 style={{
                   fontFamily: 'Cormorant Garamond, serif',
                   fontStyle: 'italic',
+                  fontWeight: 600,
 
                   fontSize: 'clamp(0.8rem, 2.5vw, 1rem)',
                   letterSpacing: '0.28em',
