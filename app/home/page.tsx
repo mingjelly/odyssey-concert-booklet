@@ -30,9 +30,18 @@ export default function HomePage() {
         overflow: 'hidden',
         textAlign: 'center',
       }}>
-        <img src="/images/odyssey_hero.png" alt="" style={{
-          position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover',
-        }} />
+      <img
+        src="/images/odyssey_hero.png"
+        alt=""
+        style={{
+          position: 'absolute',
+          inset: 0,
+          width: '100%',
+          height: '100%',
+          objectFit: 'contain',
+          backgroundColor: '#0a0805',
+        }}
+      />
         <div style={{
           position: 'absolute', inset: 0,
           background: 'linear-gradient(to bottom, rgba(26,21,16,0.15) 0%, rgba(26,21,16,0.05) 50%, rgba(26,21,16,1) 100%)',
