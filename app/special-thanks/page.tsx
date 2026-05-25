@@ -33,6 +33,12 @@ const sections = [
         {name: 'Mei Wen'},
     ],
   },
+    { title: 'Emcees',
+    items: [{ name: 'Bryan'},
+        {name: 'Riley'},
+        {name: 'Pia'}
+    ],
+  },
   {
     title: 'Office of Student Affairs - Centre for the Arts (OSA-CFA)',
     items: [
