@@ -10,49 +10,43 @@ export default function ActHero({ actNumber, actTitle, subtitle, gradientFrom = 
   return (
     <div style={{
       position: 'relative',
-      minHeight: '55vh',
+      minHeight: 'clamp(30vh, 40vh, 55vh)',
       display: 'flex',
       alignItems: 'flex-end',
-      background: `transparent`,
+      background: `linear-gradient(135deg, ${gradientFrom} 0%, ${gradientTo} 60%, #1a1510 100%)`,
       overflow: 'hidden',
-      marginBottom: '4rem',
+      marginBottom: '2rem',
     }}>
-      {/* Decorative background elements */}
+      {/* Decorative glow */}
       <div style={{
         position: 'absolute', inset: 0,
-        backgroundImage: 'radial-gradient(ellipse at 20% 50%, rgba(201,168,76,0.08) 0%, transparent 60%), radial-gradient(ellipse at 80% 20%, rgba(201,168,76,0.05) 0%, transparent 50%)',
+        backgroundImage: 'radial-gradient(ellipse at 20% 50%, rgba(201,168,76,0.08) 0%, transparent 60%)',
       }} />
 
-      {/* Large act number watermark */}
+      {/* Large act number watermark — hidden on small screens */}
       <div style={{
         position: 'absolute', right: '5%', top: '50%', transform: 'translateY(-50%)',
-        fontFamily: 'Cormorant Garamond, serif', fontSize: 'clamp(10rem, 20vw, 18rem)',
+        fontFamily: 'Cormorant Garamond, serif', fontSize: 'clamp(6rem, 18vw, 18rem)',
         fontWeight: 300, fontStyle: 'italic', color: 'rgba(201,168,76,0.06)',
         lineHeight: 1, userSelect: 'none', pointerEvents: 'none',
       }}>
         {actNumber}
       </div>
 
-      {/* Ornamental lines */}
-      <div style={{
-        position: 'absolute', top: '2rem', left: '3rem', right: '3rem',
-        borderTop: '1px solid rgba(201,168,76,0.15)',
-      }} />
-      <div style={{
-        position: 'absolute', top: '2.5rem', left: '3rem', right: '3rem',
-        borderTop: '1px solid rgba(201,168,76,0.08)',
-      }} />
+      {/* Top ornamental lines */}
+      <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', right: '1.5rem', borderTop: '1px solid rgba(201,168,76,0.15)' }} />
+      <div style={{ position: 'absolute', top: '2rem', left: '1.5rem', right: '1.5rem', borderTop: '1px solid rgba(201,168,76,0.08)' }} />
 
       {/* Content */}
-      <div style={{ position: 'relative', zIndex: 2, padding: '3rem', paddingBottom: '4rem' }}>
-        <div className="act-badge" style={{ display: 'block', marginBottom: '1rem' }}>
+      <div style={{ position: 'relative', zIndex: 2, padding: 'clamp(1.5rem, 4vw, 3rem)', paddingBottom: 'clamp(2rem, 5vw, 4rem)' }}>
+        <div className="act-badge" style={{ display: 'block', marginBottom: '0.75rem' }}>
           Act {actNumber}
         </div>
         <h1 style={{
           fontFamily: 'Cinzel, serif', fontWeight: 400,
-          fontSize: 'clamp(2rem, 5vw, 4rem)',
+          fontSize: 'clamp(1.8rem, 6vw, 4rem)',
           color: '#f5f0e8', letterSpacing: '0.06em',
-          marginBottom: subtitle ? '1rem' : 0,
+          marginBottom: subtitle ? '0.75rem' : 0,
           lineHeight: 1.15,
         }}>
           {actTitle}
@@ -60,15 +54,13 @@ export default function ActHero({ actNumber, actTitle, subtitle, gradientFrom = 
         {subtitle && (
           <p style={{
             fontFamily: 'Cormorant Garamond, serif', fontStyle: 'italic',
-            fontSize: '1.2rem', color: 'rgba(201,168,76,0.7)', letterSpacing: '0.04em',
+            fontSize: 'clamp(1rem, 2.5vw, 1.2rem)',
+            color: 'rgba(201,168,76,0.7)', letterSpacing: '0.04em', margin: 0,
           }}>
             {subtitle}
           </p>
         )}
-        <div style={{
-          width: '60px', height: '2px', marginTop: '2rem',
-          background: 'linear-gradient(to right, var(--gold), transparent)',
-        }} />
+        <div style={{ width: '60px', height: '2px', marginTop: '1.5rem', background: 'linear-gradient(to right, var(--gold), transparent)' }} />
       </div>
     </div>
   );
