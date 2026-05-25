@@ -40,7 +40,7 @@ export default function About() {
         </div>
 
         <div className="prose-booklet" style={{ fontSize: '1.1rem', lineHeight: 2 }}>
-          <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.35)', fontStyle: 'italic' }}>
+          <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.7)', fontStyle: 'italic' }}>
             Formed in 2001, NUS Resonance is NUS’ pioneer and premier collegiate a cappella group, made up of people bound by a common love for singing. Members come from diverse musical backgrounds, and they sing just about anything – from contemporary pop to choral music, alternative rock to swing, and even the occasional techno tune.
           </p>
           <p>
@@ -65,7 +65,7 @@ export default function About() {
             </a>
             .
           </p>
-          <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.35)', fontStyle: 'italic' }}>
+          <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.7)', fontStyle: 'italic' }}>
             NUS Resonance performs regularly for school, corporate and other events, including gala dinners and appreciation nights. Below are some notable clients that we have worked with:
           </p>
         </div>
