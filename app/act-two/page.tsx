@@ -134,7 +134,7 @@ export default function ActTwo() {
 
         <ActHero
           actNumber={2}
-          actTitle="Act Two: Flux"
+          actTitle="Flux"
         />
 
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>

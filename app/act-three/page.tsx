@@ -136,7 +136,7 @@ export default function ActThree() {
 
         <ActHero
           actNumber={3}
-          actTitle="Act Three: Metamorphosis"
+          actTitle="Metamorphosis"
         />
 
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>

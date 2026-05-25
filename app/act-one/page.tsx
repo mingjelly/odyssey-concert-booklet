@@ -145,7 +145,7 @@ export default function ActOne() {
 
         <ActHero
           actNumber={1}
-          actTitle="Act One: Genesis"
+          actTitle="Genesis"
         />
 
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>

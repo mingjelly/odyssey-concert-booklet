@@ -157,7 +157,7 @@ export default function ActFour() {
 
         <ActHero
           actNumber={4}
-          actTitle="Act Four: Transcendence"
+          actTitle="Transcendence"
         />
 
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
