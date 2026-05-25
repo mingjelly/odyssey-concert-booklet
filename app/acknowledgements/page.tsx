@@ -16,7 +16,7 @@ const subcommittees = [
   {
     title: 'Publicity Subcommittee',
     subsections: [
-      { label: '', names: ['Rinny','Nicky', 'Xin Hui', 'Titus', 'Marvin','Edlyn','Riley','Vicel','Wan Xin', 'Meiwen', 'Josiah', 'Chloe', 'Oak','Sandy','Naomi'] },
+      { label: '', names: ['Rinny','Nicky', 'Xin Hui', 'Titus', 'Marvin','Edlyn','Riley','Vicelya','Wan Xin', 'Meiwen', 'Josiah', 'Chloe', 'Oak','Sandy','Naomi'] },
       { label: 'ACT Teasers, Interviews and Odyssey Airline Editors', names: ['Rinny', 'Nicky', 'Xin Hui', 'Marvin']},
       { label: 'ACT Teaser actors', names: ['Eunice', 'Zea', 'Luis', 'Chantrice', 'Isaac', ' Marvin', 'Yi Cheng', 'Josiah', 'Xin Hui', 'Rinny', 'Napin']},
       { label: 'Photoshoot Helpers', names: ['Nicky', 'Rinny', 'Shira', 'Napin', 'Danial', 'Yi Cheng', 'Justin', 'Katherine', 'Riley', 'Shennon', 'Meiwen', 'Xin Hui', 'Josiah', 'Chloe', 'Ming Yang', 'Oak'] },

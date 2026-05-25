@@ -92,7 +92,7 @@ const songs = [
     cast: [
       { voice: 'Mezzo', names:'Raeanne' },
       { voice: 'Alto 1', names:'Shirin' },
-      { voice: 'Alto 2', names:'Vicel' },
+      { voice: 'Alto 2', names:'Vicelya' },
       { voice: 'Alto 3', names:'Yi Cheng' },
       { voice: 'Baritone', names:'Nicky' },
       { voice: 'Bass 1', names:'Oak' },
