@@ -50,7 +50,7 @@ export default function About() {
               href="https://www.nusresonance.com"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: 'rgba(201,168,76,0.9)', textDecoration: 'underline' }}
+              style={{ color: 'rgba(201,168,76,0.7)', textDecoration: 'underline' }}
             >
               www.nusresonance.com
             </a>
@@ -59,7 +59,7 @@ export default function About() {
 
             <a
               href="mailto:contact@nusresonance.com"
-              style={{ color: 'rgba(201,168,76,0.9)', textDecoration: 'underline' }}
+              style={{ color: 'rgba(201,168,76,0.7)', textDecoration: 'underline' }}
             >
               contact@nusresonance.com
             </a>
