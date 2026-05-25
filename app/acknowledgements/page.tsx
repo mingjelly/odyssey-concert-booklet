@@ -19,7 +19,7 @@ const subcommittees = [
       { label: '', names: ['Rinny','Nicky', 'Xin Hui', 'Titus', 'Marvin','Edlyn','Riley','Vicelya','Wan Xin', 'Meiwen', 'Josiah', 'Chloe', 'Oak','Sandy','Naomi'] },
       { label: 'ACT Teasers, Interviews and Odyssey Airline Editors', names: ['Rinny', 'Nicky', 'Xin Hui', 'Marvin']},
       { label: 'ACT Teaser actors', names: ['Eunice', 'Zea', 'Luis', 'Chantrice', 'Isaac Lee', ' Marvin', 'Yi Cheng', 'Josiah', 'Xin Hui', 'Rinny', 'Napin']},
-      { label: 'Photoshoot Helpers', names: ['Nicky', 'Rinny', 'Shira', 'Napin', 'Danial', 'Yi Cheng', 'Justin', 'Katherine', 'Riley', 'Shennon', 'Meiwen', 'Xin Hui', 'Josiah', 'Chloe', 'Ming Yang', 'Oak', 'Benny', 'Eunice', 'Wan Xin', 'Haorui'] },
+      { label: 'Photoshoot Helpers', names: ['Nicky', 'Rinny', 'Shira', 'Napin', 'Danial', 'Yi Cheng', 'Justin', 'Katherine', 'Riley', 'Shennon', 'Meiwen', 'Xin Hui', 'Josiah', 'Chloe', 'Ming Yang', 'Oak', 'Benny', 'Eunice', 'Wan Xin', 'Haorui', 'Titus'] },
       { label: 'Website Team', names: ['Cleon', 'Raymond']},
       { label: 'Concert Booklet', names: ['Ming Yang']}
     ]
