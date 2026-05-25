@@ -185,13 +185,24 @@ export default function HomePage() {
                 position: 'relative', zIndex: 2, padding: 'clamp(1rem, 4vw, 2rem)', height: '100%',
                 display: 'flex', flexDirection: 'column', justifyContent: 'flex-end',
               }}>
-                <div style={{
-                  fontFamily: 'Cormorant Garamond, serif', fontStyle: 'italic',
-                  fontSize: 'clamp(0.65rem, 2vw, 0.85rem)', letterSpacing: '0.25em', color: 'rgba(201,168,76,0.9)',
-                  textTransform: 'uppercase', marginBottom: '0.4rem',
-                }}>
-                  Act {act.number}
-                </div>
+              <div
+                style={{
+                  fontFamily: 'Cormorant Garamond, serif',
+                  fontStyle: 'italic',
+
+                  fontSize: 'clamp(0.8rem, 2.5vw, 1rem)',
+                  letterSpacing: '0.28em',
+
+                  color: 'rgba(255, 215, 140, 0.95)',
+
+                  textTransform: 'uppercase',
+                  marginBottom: '0.6rem',
+
+                  textShadow: '0 2px 10px rgba(0,0,0,0.6)',
+                }}
+              >
+                Act {act.number}
+              </div>
                 <h2 style={{
                   fontFamily: 'Cinzel, serif', fontWeight: 400, fontSize: 'clamp(1.25rem, 5.2vw, 2rem)',
                   color: '#f5f0e8', letterSpacing: '0.08em', marginBottom: '1.25rem', lineHeight: 1.15,
