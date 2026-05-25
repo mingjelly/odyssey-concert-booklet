@@ -33,7 +33,7 @@ const subcommittees = [
   {
     title: 'Audio Subcommittee',
     subsections: [
-      { label: '', names: ['Ian', 'Marvin', 'Dave', 'Andre', 'Joshua Chiang', 'Edlyn', 'Xin Hui', 'Titus', 'Ming Yang'] },
+      { label: '', names: ['Ian', 'Marvin', 'Dave', 'Andre', 'Joshua Chiang', 'Edlyn', 'Xin Hui', 'Titus', 'Ming Yang', 'Oak'] },
     ],
   },
 ];
