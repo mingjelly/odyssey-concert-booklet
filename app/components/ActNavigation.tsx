@@ -16,16 +16,19 @@ export default function ActNavigation({
   return (
     <div
       style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr auto 1fr',
+        display: 'flex',
+        justifyContent: 'space-between',
         alignItems: 'center',
-        width: '100%',
-        boxSizing: 'border-box',
+
+        gap: '1rem',
+
+        maxWidth: '900px',
+        margin: '4rem auto 0',
 
         padding: '2.5rem 0',
         borderTop: '1px solid rgba(201,168,76,0.2)',
-        marginTop: '4rem',
-        gap: '0.75rem',
+
+        flexWrap: 'wrap',
       }}
     >
       {/* LEFT */}
@@ -34,26 +37,23 @@ export default function ActNavigation({
           href={prevHref}
           className="nav-btn"
           style={{
-            display: 'flex',
+            display: 'inline-flex',
             alignItems: 'center',
             justifyContent: 'flex-start',
-
-            minWidth: 0,
-            overflow: 'hidden',
 
             height: '44px',
             padding: '0 1rem',
 
             whiteSpace: 'nowrap',
-            textOverflow: 'ellipsis',
-
             fontSize: 'clamp(0.8rem, 3vw, 1rem)',
+
+            flex: '0 0 auto',
           }}
         >
           ← {prevLabel}
         </Link>
       ) : (
-        <div />
+        <div style={{ flex: '0 0 auto' }} />
       )}
 
       {/* CENTER */}
@@ -61,7 +61,7 @@ export default function ActNavigation({
         href="/home"
         className="nav-btn"
         style={{
-          display: 'flex',
+          display: 'inline-flex',
           alignItems: 'center',
           justifyContent: 'center',
 
@@ -70,9 +70,11 @@ export default function ActNavigation({
 
           whiteSpace: 'nowrap',
           fontSize: 'clamp(0.8rem, 3vw, 1rem)',
+
+          flex: '0 0 auto',
         }}
       >
-        ⬥ Home
+        ⬥ Programme
       </Link>
 
       {/* RIGHT */}
@@ -81,26 +83,23 @@ export default function ActNavigation({
           href={nextHref}
           className="nav-btn"
           style={{
-            display: 'flex',
+            display: 'inline-flex',
             alignItems: 'center',
             justifyContent: 'flex-end',
-
-            minWidth: 0,
-            overflow: 'hidden',
 
             height: '44px',
             padding: '0 1rem',
 
             whiteSpace: 'nowrap',
-            textOverflow: 'ellipsis',
-
             fontSize: 'clamp(0.8rem, 3vw, 1rem)',
+
+            flex: '0 0 auto',
           }}
         >
           {nextLabel} →
         </Link>
       ) : (
-        <div />
+        <div style={{ flex: '0 0 auto' }} />
       )}
     </div>
   );
