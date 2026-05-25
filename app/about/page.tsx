@@ -43,8 +43,27 @@ export default function About() {
           <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.35)', fontStyle: 'italic' }}>
             Formed in 2001, NUS Resonance is NUS’ pioneer and premier collegiate a cappella group, made up of people bound by a common love for singing. Members come from diverse musical backgrounds, and they sing just about anything – from contemporary pop to choral music, alternative rock to swing, and even the occasional techno tune.
           </p>
-          <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.35)', fontStyle: 'italic' }}>
-            NUS Resonance continually strives towards promoting a greater awareness of a cappella music both within and outside of campus. For gig enquiries, contact us through our website www.nusresonance.com or drop us an email at contact@nusresonance.com.
+          <p>
+            NUS Resonance continually strives towards promoting a greater awareness of a cappella music both within and outside of campus. For gig enquiries, contact us through our website{' '}
+            
+            <a
+              href="https://www.nusresonance.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: 'rgba(201,168,76,0.9)', textDecoration: 'underline' }}
+            >
+              www.nusresonance.com
+            </a>
+
+            {' '}or drop us an email at{' '}
+
+            <a
+              href="mailto:contact@nusresonance.com"
+              style={{ color: 'rgba(201,168,76,0.9)', textDecoration: 'underline' }}
+            >
+              contact@nusresonance.com
+            </a>
+            .
           </p>
           <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.35)', fontStyle: 'italic' }}>
             NUS Resonance performs regularly for school, corporate and other events, including gala dinners and appreciation nights. Below are some notable clients that we have worked with:
