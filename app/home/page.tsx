@@ -81,7 +81,7 @@ export default function HomePage() {
           margin: 0,
         }}
       >
-        ODYSSEY 2026
+        NUS RESONANCE
       </h1>
 
       {/* divider */}
@@ -112,7 +112,7 @@ export default function HomePage() {
           textShadow: '0 10px 35px rgba(0,0,0,0.65)',
         }}
       >
-        NUS Resonance
+        ODYSSEY 2026
       </h2>
     </div>
     </div>
