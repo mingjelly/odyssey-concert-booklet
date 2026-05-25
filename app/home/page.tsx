@@ -115,6 +115,7 @@ export default function HomePage() {
         NUS Resonance
       </h2>
     </div>
+    </div>
 
       {/* Content */}
       <div style={{ position: 'relative', zIndex: 1, padding: '0 clamp(0.9rem, 4vw, 1.6rem) 4rem', maxWidth: '1100px', margin: '0 auto' }}>
