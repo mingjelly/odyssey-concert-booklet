@@ -86,7 +86,7 @@ const songs = [
   },
   {
     number: 20,
-    title: 'Dog Days are Over',
+    title: 'Dog Days Are Over',
     originalBy: 'Florence + The Machine',
     arranger: 'Bryan Tan',
     cast: [
@@ -104,7 +104,7 @@ const songs = [
     number: 21,
     title: 'FINALE: Another Day of Sun',
     originalBy: 'La La Land',
-    arranger: 'Bryan Tan',
+    arranger: 'Napin Limcharoen and Oliver Li',
     cast: [
       { voice: 'Soprano', names:'Hao Rui' },
       { voice: 'Mezzo', names:'Shennon' },
