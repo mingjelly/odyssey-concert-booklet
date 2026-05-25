@@ -50,7 +50,7 @@ const songs = [
     number: 13,
     title: 'The Rise and Fall of a Midwest Princess Mashup',
     originalBy: 'Chappell Roan',
-    arranger: 'Sandhya',
+    arranger: 'Sandhya Ramachandran',
     cast: [
       { voice: 'Soprano', names: 'Huay Ping' },
       { voice: 'Mezzo', names: 'Laura' },
