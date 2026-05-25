@@ -53,55 +53,67 @@ export default function HomePage() {
         }}
       />
 
-      {/* TITLE TEXT (new) */}
-      <div
+    {/* TITLE TEXT */}
+    <div
+      style={{
+        position: 'absolute',
+        inset: 0,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        textAlign: 'center',
+        zIndex: 2,
+        padding: '2rem',
+      }}
+    >
+      {/* Main brand */}
+      <h1
         style={{
-          position: 'absolute',
-          inset: 0,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
-          padding: '1rem',
-          zIndex: 2,
+          fontFamily: 'Glacial Indifference, sans-serif',
+          fontWeight: 400,
+          letterSpacing: '0.35em',
+
+          fontSize: 'clamp(0.9rem, 2.5vw, 1.2rem)',
+
+          color: 'rgba(245,240,232,0.85)',
+
+          margin: 0,
         }}
       >
-        <h1
-          style={{
-            fontFamily: 'Cinzel, serif',
-            fontWeight: 400,
-            letterSpacing: '0.12em',
-            color: '#f5f0e8',
-            fontSize: 'clamp(1.4rem, 5vw, 3rem)',
-            textAlign: 'center',
-            margin: 0,
-          }}
-        >
-          ODYSSEY 2026
-        </h1>
+        ODYSSEY 2026
+      </h1>
 
-        <div
-          style={{
-            marginTop: '0.75rem',
-            width: '80px',
-            height: '1px',
-            background: 'rgba(201,168,76,0.6)',
-          }}
-        />
+      {/* divider */}
+      <div
+        style={{
+          margin: '1.2rem 0',
+          width: '120px',
+          height: '1px',
+          background: 'rgba(201,168,76,0.6)',
+        }}
+      />
 
-        <p
-          style={{
-            marginTop: '0.75rem',
-            fontFamily: 'Cormorant Garamond, serif',
-            fontStyle: 'italic',
-            letterSpacing: '0.2em',
-            color: 'rgba(245,240,232,0.8)',
-            fontSize: 'clamp(0.9rem, 3vw, 1.3rem)',
-          }}
-        >
-          NUS Resonance
-        </p>
-      </div>
+      {/* Main title */}
+      <h2
+        style={{
+          fontFamily: 'The Seasons, serif',
+          fontWeight: 300,
+
+          fontSize: 'clamp(3rem, 9vw, 6rem)',
+
+          letterSpacing: '0.08em',
+          lineHeight: 1,
+
+          color: '#f5f0e8',
+
+          margin: 0,
+
+          textShadow: '0 10px 35px rgba(0,0,0,0.65)',
+        }}
+      >
+        NUS Resonance
+      </h2>
     </div>
 
       {/* Content */}
