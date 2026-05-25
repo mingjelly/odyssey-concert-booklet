@@ -18,26 +18,91 @@ export default function HomePage() {
   return (
     <main style={{ minHeight: '100vh', background: 'var(--dark)', position: 'relative' }}>
 
-      {/* Hero */}
-      <div style={{
+    {/* Hero */}
+    <div
+      style={{
         position: 'relative',
-        height: '100vh',
-        minHeight: '500px',
-        maxHeight: '900px',
+        height: 'clamp(420px, 70vh, 900px)',
+        minHeight: '420px',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         overflow: 'hidden',
+        background: '#0a0805',
         textAlign: 'center',
-      }}>
-        <img src="/images/odyssey_hero.png" alt="" style={{
-          position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover',
-        }} />
-        <div style={{
-          position: 'absolute', inset: 0,
-          background: 'linear-gradient(to bottom, rgba(26,21,16,0.15) 0%, rgba(26,21,16,0.05) 50%, rgba(26,21,16,1) 100%)',
-        }} />
+      }}
+    >
+      {/* Image (fully visible, no cropping) */}
+      <img
+        src="/images/odyssey_hero.jpg"
+        alt="NUS Resonance Odyssey"
+        style={{
+          width: '100%',
+          height: '100%',
+          objectFit: 'contain',
+        }}
+      />
+
+      {/* Dark overlay for readability */}
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          background:
+            'radial-gradient(circle at center, rgba(0,0,0,0.2), rgba(0,0,0,0.75))',
+        }}
+      />
+
+      {/* TITLE TEXT (new) */}
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '1rem',
+          zIndex: 2,
+        }}
+      >
+        <h1
+          style={{
+            fontFamily: 'Cinzel, serif',
+            fontWeight: 400,
+            letterSpacing: '0.12em',
+            color: '#f5f0e8',
+            fontSize: 'clamp(1.4rem, 5vw, 3rem)',
+            textAlign: 'center',
+            margin: 0,
+          }}
+        >
+          NUS RESONANCE
+        </h1>
+
+        <div
+          style={{
+            marginTop: '0.75rem',
+            width: '80px',
+            height: '1px',
+            background: 'rgba(201,168,76,0.6)',
+          }}
+        />
+
+        <p
+          style={{
+            marginTop: '0.75rem',
+            fontFamily: 'Cormorant Garamond, serif',
+            fontStyle: 'italic',
+            letterSpacing: '0.2em',
+            color: 'rgba(245,240,232,0.8)',
+            fontSize: 'clamp(0.9rem, 3vw, 1.3rem)',
+          }}
+        >
+          ODYSSEY
+        </p>
       </div>
+    </div>
 
       {/* Content */}
       <div style={{ position: 'relative', zIndex: 1, padding: '0 clamp(0.9rem, 4vw, 1.6rem) 4rem', maxWidth: '1100px', margin: '0 auto' }}>
