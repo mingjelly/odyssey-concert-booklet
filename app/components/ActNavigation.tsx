@@ -7,76 +7,83 @@ interface ActNavigationProps {
   nextLabel?: string;
 }
 
-export default function ActNavigation({ prevHref, prevLabel = 'Previous', nextHref, nextLabel = 'Next' }: ActNavigationProps) {
+export default function ActNavigation({
+  prevHref,
+  prevLabel = 'Previous',
+  nextHref,
+  nextLabel = 'Next',
+}: ActNavigationProps) {
   return (
-    <div style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      gap: '1rem',
-      padding: '2rem 0',
-      borderTop: '1px solid rgba(201,168,76,0.2)',
-      marginTop: '4rem'
-    }}>
-      <div style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        width: '100%',
-        flexWrap: 'wrap',
-        gap: '0.75rem'
-      }}>
-        {prevHref && (
-          <Link href={prevHref} className="nav-btn" style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            padding: '0.6rem 1rem',
-            flex: '1 1 auto',
-            minHeight: '44px',
-            textAlign: 'center',
-            fontSize: 'clamp(0.8rem, 3vw, 1rem)',
-          }}>
-            ← {prevLabel}
-          </Link>
-        )}
-      </div>
-      <Link href="/home" className="nav-btn" style={{
-        display: 'inline-flex',
+    <div
+      style={{
+        display: 'grid',
+        gridTemplateColumns: '1fr auto 1fr',
         alignItems: 'center',
-        justifyContent: 'center',
-        padding: '0.6rem 1rem',
-        flex: '1 1 auto',
-        minHeight: '44px',
-        textAlign: 'center',
-        fontSize: 'clamp(0.8rem, 3vw, 1rem)',
-      }}>
+        gap: '0.75rem',
+        padding: '2.5rem 0',
+        borderTop: '1px solid rgba(201,168,76,0.2)',
+        marginTop: '4rem',
+      }}
+    >
+      {/* LEFT */}
+      {prevHref ? (
+        <Link
+          href={prevHref}
+          className="nav-btn"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'flex-start',
+            height: '44px',
+            padding: '0 1rem',
+            whiteSpace: 'nowrap',
+            fontSize: 'clamp(0.8rem, 3vw, 1rem)',
+          }}
+        >
+          ← {prevLabel}
+        </Link>
+      ) : (
+        <div />
+      )}
+
+      {/* CENTER */}
+      <Link
+        href="/home"
+        className="nav-btn"
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          height: '44px',
+          padding: '0 1rem',
+          whiteSpace: 'nowrap',
+          fontSize: 'clamp(0.8rem, 3vw, 1rem)',
+          justifySelf: 'center',
+        }}
+      >
         ⬥ Programme
       </Link>
-        <div style={{
-            display: 'inline-flex',
+
+      {/* RIGHT */}
+      {nextHref ? (
+        <Link
+          href={nextHref}
+          className="nav-btn"
+          style={{
+            display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center',
-            padding: '0.6rem 1rem',
-            flex: '1 1 auto',
-            minHeight: '44px',
-            textAlign: 'center',
+            justifyContent: 'flex-end',
+            height: '44px',
+            padding: '0 1rem',
+            whiteSpace: 'nowrap',
             fontSize: 'clamp(0.8rem, 3vw, 1rem)',
-          }}>
-        {nextHref && (
-          <Link href={nextHref} className="nav-btn" style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            padding: '0.6rem 1rem',
-            flex: '1 1 auto',
-            minHeight: '44px',
-            textAlign: 'center',
-            fontSize: 'clamp(0.8rem, 3vw, 1rem)',
-          }}>
-            {nextLabel} →
-          </Link>
-        )}
-      </div>
+          }}
+        >
+          {nextLabel} →
+        </Link>
+      ) : (
+        <div />
+      )}
     </div>
   );
 }
