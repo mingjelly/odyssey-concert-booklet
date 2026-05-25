@@ -37,7 +37,7 @@ const songs = [
       { voice: 'Alto', names: 'Katherine' },
       { voice: 'VP', names: 'Xin Hui' },
     ],
-    description: "아이브의 'I AM'은 당당한 자기 확신과 주체적인 삶을 노래하는 궁극의 자존감 송입니다. 삶이라는 무대에서 다른 사람이 짜놓은 각본이 아닌, 내가 직접 내 삶의 리소스를 쓰고 이야기를 써내려 가겠다는 주체적인 메시지를 담고 있습니다. 후반부로 갈수록 고조되는 시원한 고음과 보컬 벨팅 덕분에 마치 영화의 주인공이 되어 하늘을 비행하는 듯한 승리감과 해방감을 줍니다. IVE's hit song I AM is an explosive, high-energy anthem of self-love and fearless individuality, empowering us to take control, embrace our fears and be our genuine selves. Be inspired by NUS Resonance's very own K-pop girl group as they wow you with their powerful voices, dazzling choreography and unapologetic confidence. 'Be a writer, 장르로는 fantasy' - you are the author of your own destiny. How will you craft your masterpiece?",
+    description: "IVE's hit song I AM is an explosive, high-energy anthem of self-love and fearless individuality, empowering us to take control, embrace our fears and be our genuine selves. Be inspired by NUS Resonance's very own K-pop girl group as they wow you with their powerful voices, dazzling choreography and unapologetic confidence. 'Be a writer, 장르로는 fantasy' - you are the author of your own destiny. How will you craft your masterpiece?",
     images: [
        {image: '/images/act4/iam_group.jpg'},
        {image: '/images/act4/iam_2.jpg'},
