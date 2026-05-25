@@ -62,7 +62,7 @@ export default function About() {
           }}
         >
           <Image
-            src="/images/about/collabs.jpg"
+            src="/images/partners.jpg"
             alt="NUS Resonance Collabs"
             fill
             style={{ objectFit: 'cover' }}
