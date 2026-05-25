@@ -59,7 +59,7 @@ export default function Foreword() {
 
         {/* Navigation */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '4rem', paddingTop: '2rem', borderTop: '1px solid rgba(201,168,76,0.15)' }}>
-          <Link href="/home" className="nav-btn">← Programme</Link>
+          <Link href="/home" className="nav-btn">⬥ Home</Link>
           <Link href="/about" className="nav-btn">About Us →</Link>
         </div>
       </div>
