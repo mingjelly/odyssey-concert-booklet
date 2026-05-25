@@ -20,9 +20,15 @@ export default function HomePage() {
 
       {/* Hero */}
       <div style={{
-        position: 'relative', minHeight: '100vh',
-        display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
-        padding: '4rem 2rem', textAlign: 'center', overflow: 'hidden',
+        position: 'relative',
+        height: '100vh',
+        minHeight: '500px',
+        maxHeight: '900px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        overflow: 'hidden',
+        textAlign: 'center',
       }}>
         <img src="/images/odyssey_hero.png" alt="" style={{
           position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover',
@@ -38,17 +44,20 @@ export default function HomePage() {
 
         {/* Foreword / About / Acknowledgements nav bar */}
         <div style={{
-          display: 'flex', justifyContent: 'center', flexWrap: 'wrap',
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
           borderTop: '1px solid rgba(201,168,76,0.2)',
           borderBottom: '1px solid rgba(201,168,76,0.2)',
           marginBottom: '4rem',
+          textAlign: 'center',
         }}>
           {pages.map((page, i) => (
             <Link key={page.href} href={page.href} className="nav-btn" style={{
-              borderRadius: 0,
-              borderTop: 'none', borderBottom: 'none', borderLeft: 'none',
-              borderRight: i < pages.length - 1 ? '1px solid rgba(201,168,76,0.2)' : 'none',
-              padding: '1.1rem 2.5rem',
+              padding: '1rem 0.5rem',
+              borderRight: '1px solid rgba(201,168,76,0.2)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}>
               {page.label}
             </Link>
@@ -69,7 +78,7 @@ export default function HomePage() {
           {acts.map((act) => (
             <Link key={act.href} href={act.href} style={{
               textDecoration: 'none', display: 'block',
-              position: 'relative', overflow: 'hidden', minHeight: '420px',
+              position: 'relative', overflow: 'hidden', height: 'clamp(240px, 60vw, 420px)',
             }}>
               {act.image && (
                 <img src={act.image} alt="" style={{
