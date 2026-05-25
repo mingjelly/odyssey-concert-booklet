@@ -92,7 +92,7 @@ export default function HomePage() {
           {acts.map((act) => (
             <Link key={act.href} href={act.href} style={{
               textDecoration: 'none', display: 'block',
-              position: 'relative', overflow: 'hidden', minHeight: 'clamp(300px, 85vw, 460px)',
+              position: 'relative', overflow: 'hidden', minHeight: 'clamp(280px, 80vw, 420px)',
             }}>
               {act.image && (
                 <img src={act.image} alt="" style={{
