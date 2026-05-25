@@ -4,7 +4,7 @@ const acts = [
   { number: 1, title: 'Genesis', href: '/act-one', image: '/images/act1.jpg', songs: ['The Greatest Show', 'Classic', 'Hypotheticals', 'Anganku Anganmu', 'WHERE IS MY HUSBAND!'] },
   { number: 2, title: 'Flux', href: '/act-two', image: '/images/act2.jpg', songs: ['WILDFLOWER', 'Situations', "讨厌 (Can't Stand It)", 'The Door', 'Soft Universe'] },
   { number: 3, title: 'Metamorphosis', href: '/act-three', image: '/images/act3.png', songs: ['Life is a Highway', 'Born Again', 'The Rise and Fall of a Midwest Princess Mashup', 'Cardboard Box', 'MEDIEVAL'] },
-  { number: 4, title: 'Transcendance', href: '/act-four', image: '/images/act4.jpg', songs: ['I Will Survive', 'I AM', 'When the Day is Done', 'We Made It'] },
+  { number: 4, title: 'Transcendance', href: '/act-four', image: '/images/act4.png', songs: ['I Will Survive', 'I AM', 'When the Day is Done', 'We Made It'] },
 ];
 
 const pages = [
