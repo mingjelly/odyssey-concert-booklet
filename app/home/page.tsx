@@ -77,7 +77,7 @@ export default function HomePage() {
             margin: 0,
           }}
         >
-          NUS RESONANCE
+          ODYSSEY 2026
         </h1>
 
         <div
@@ -99,7 +99,7 @@ export default function HomePage() {
             fontSize: 'clamp(0.9rem, 3vw, 1.3rem)',
           }}
         >
-          ODYSSEY
+          NUS Resonance
         </p>
       </div>
     </div>
