@@ -43,7 +43,7 @@ export default function About() {
           <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.7)', fontStyle: 'italic' }}>
             Formed in 2001, NUS Resonance is NUS’ pioneer and premier collegiate a cappella group, made up of people bound by a common love for singing. Members come from diverse musical backgrounds, and they sing just about anything – from contemporary pop to choral music, alternative rock to swing, and even the occasional techno tune.
           </p>
-          <p>
+          <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.7)', fontStyle: 'italic' }}>
             NUS Resonance continually strives towards promoting a greater awareness of a cappella music both within and outside of campus. For gig enquiries, contact us through our website{' '}
             
             <a
