@@ -75,29 +75,64 @@ export default function Acknowledgements() {
         </div>
 
         {/* Committee */}
-        <div style={{ marginBottom: '3rem' }}>
-          <h2 style={{
-            fontFamily: 'Cinzel, serif', fontWeight: 400, fontSize: '1rem',
-            color: 'rgba(201,168,76,0.8)', letterSpacing: '0.15em', textTransform: 'uppercase',
-            marginBottom: '1rem', paddingBottom: '0.5rem', borderBottom: '1px solid rgba(201,168,76,0.15)',
-          }}>
-            Committee 25/26
-          </h2>
-          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-            {committee.map((item, i) => (
-              <li key={i} style={{
-                fontFamily: 'EB Garamond, serif', fontSize: '1.1rem',
-                color: 'rgba(245,240,232,0.8)', padding: '0.3rem 0',
-                display: 'flex', gap: '0.75rem', alignItems: 'baseline',
-              }}>
-                <span style={{ color: 'rgba(201,168,76,0.6)', fontStyle: 'italic', minWidth: '240px' }}>
-                  {item.role}:
-                </span>
-                <span>{item.name}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+          <div style={{ marginBottom: '3rem' }}>
+            <h2
+              style={{
+                fontFamily: 'Cinzel, serif',
+                fontWeight: 400,
+                fontSize: '1rem',
+                color: 'rgba(201,168,76,0.8)',
+                letterSpacing: '0.15em',
+                textTransform: 'uppercase',
+                marginBottom: '1rem',
+                paddingBottom: '0.5rem',
+                borderBottom: '1px solid rgba(201,168,76,0.15)',
+              }}
+            >
+              Committee 25/26
+            </h2>
+
+            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+              {committee.map((item, i) => (
+                <li
+                  key={i}
+                  style={{
+                    display: 'grid',
+                    gridTemplateColumns: '1fr 1fr',
+                    alignItems: 'center',
+
+                    fontFamily: 'EB Garamond, serif',
+                    fontSize: '1.1rem',
+                    color: 'rgba(245,240,232,0.8)',
+                    padding: '0.3rem 0',
+                  }}
+                >
+                  {/* ROLE */}
+                  <span
+                    style={{
+                      color: 'rgba(201,168,76,0.6)',
+                      fontStyle: 'italic',
+                      textAlign: 'right',
+                      paddingRight: '1rem',
+                      wordBreak: 'break-word',
+                    }}
+                  >
+                    {item.role}:
+                  </span>
+
+                  {/* NAME */}
+                  <span
+                    style={{
+                      textAlign: 'left',
+                      wordBreak: 'break-word',
+                    }}
+                  >
+                    {item.name}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
 
         {/* Subcommittees */}
         {subcommittees.map((sub, i) => (
