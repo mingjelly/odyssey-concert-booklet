@@ -70,9 +70,9 @@ export default function About() {
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '4rem', paddingTop: '2rem', borderTop: '1px solid rgba(201,168,76,0.15)' }}>
-          <Link href="/foreword" className="nav-btn">← Foreword</Link>
+          <Link href="/foreword" className="nav-btn">← Prev</Link>
           <Link href="/home" className="nav-btn">⬥ Home</Link>
-          <Link href="/act-one" className="nav-btn">Act 1 →</Link>
+          <Link href="/act-one" className="nav-btn">Next →</Link>
         </div>
       </div>
     </main>

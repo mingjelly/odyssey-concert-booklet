@@ -174,8 +174,8 @@ export default function SpecialThanks() {
             paddingTop: '2rem',
             borderTop: '1px solid rgba(201,168,76,0.15)'
           }}>
-            <Link href="/acknowledgements" className="nav-btn">← Acknowledgements</Link>
-            <Link href="/home" className="nav-btn">⬥ Programme</Link>
+            <Link href="/acknowledgements" className="nav-btn">← Prev</Link>
+            <Link href="/home" className="nav-btn">⬥ Home</Link>
           </div>
 
         </div>
