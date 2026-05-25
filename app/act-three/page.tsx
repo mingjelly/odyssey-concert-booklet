@@ -78,7 +78,7 @@ const songs = [
       { voice: 'Alto', names: 'Vienna' },
       { voice: 'Tenor', names: 'Syaz' },
       { voice: 'Bass', names: 'Benny' },
-      { voice: 'VP', names: 'Tee Lei' },
+      { voice: 'VP', names: 'Lei' },
     ],
     description: '',
     images: [
