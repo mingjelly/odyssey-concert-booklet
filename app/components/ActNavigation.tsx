@@ -17,12 +17,14 @@ export default function ActNavigation({
     <div
       style={{
         display: 'grid',
-        gridTemplateColumns: '1fr 1fr 1fr',
+        gridTemplateColumns: 'minmax(0, 1fr) auto minmax(0, 1fr)',
         alignItems: 'center',
         width: '100%',
-        maxWidth: '100%',
         boxSizing: 'border-box',
-        gap: '0.5rem',
+
+        height: '64px',
+
+        gap: '0.75rem',
         padding: '2.5rem 0',
         borderTop: '1px solid rgba(201,168,76,0.2)',
         marginTop: '4rem',
@@ -36,19 +38,20 @@ export default function ActNavigation({
           style={{
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'flex-start',
+            justifyContent: 'center',
 
             minWidth: 0,
             width: '100%',
+            height: '64px',
 
-            height: '44px',
             padding: '0 1rem',
 
             fontSize: 'clamp(0.8rem, 3vw, 1rem)',
+            lineHeight: 1.2,
 
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            whiteSpace: 'nowrap',
+            textAlign: 'center',
+            whiteSpace: 'normal',
+            wordBreak: 'break-word',
           }}
         >
           ← {prevLabel}
@@ -68,13 +71,16 @@ export default function ActNavigation({
 
           minWidth: 0,
           width: '100%',
+          height: '64px',
 
-          height: '44px',
           padding: '0 1rem',
 
           fontSize: 'clamp(0.8rem, 3vw, 1rem)',
+          lineHeight: 1.2,
 
-          whiteSpace: 'nowrap',
+          whiteSpace: 'normal',
+          textAlign: 'center',
+          wordBreak: 'break-word',
         }}
       >
         ⬥ Programme
@@ -88,19 +94,20 @@ export default function ActNavigation({
           style={{
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'flex-end',
+            justifyContent: 'center',
 
             minWidth: 0,
             width: '100%',
+            height: '64px',
 
-            height: '44px',
             padding: '0 1rem',
 
             fontSize: 'clamp(0.8rem, 3vw, 1rem)',
+            lineHeight: 1.2,
 
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            whiteSpace: 'nowrap',
+            textAlign: 'center',
+            whiteSpace: 'normal',
+            wordBreak: 'break-word',
           }}
         >
           {nextLabel} →
