@@ -199,9 +199,9 @@ export default function Acknowledgements() {
 
         {/* Navigation */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '4rem', paddingTop: '2rem', borderTop: '1px solid rgba(201,168,76,0.15)' }}>
-          <Link href="/act-four" className="nav-btn">← Act Four</Link>
-          <Link href="/home" className="nav-btn">⬥ Programme</Link>
-          <Link href="/special-thanks" className="nav-btn">Special Thanks →</Link>
+          <Link href="/act-four" className="nav-btn">← Prev</Link>
+          <Link href="/home" className="nav-btn">⬥ Home</Link>
+          <Link href="/special-thanks" className="nav-btn">Next →</Link>
         </div>
       </div>
       </div>

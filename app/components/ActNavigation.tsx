@@ -72,7 +72,7 @@ export default function ActNavigation({
           fontSize: 'clamp(0.8rem, 3vw, 1rem)',
         }}
       >
-        ⬥ Programme
+        ⬥ Home
       </Link>
 
       {/* RIGHT */}

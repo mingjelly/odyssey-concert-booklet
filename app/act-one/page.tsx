@@ -157,9 +157,9 @@ export default function ActOne() {
 
           <ActNavigation
             prevHref="/about"
-            prevLabel="About Us"
+            prevLabel="Prev"
             nextHref="/act-two"
-            nextLabel="Act Two"
+            nextLabel="Next"
           />
         </div>
 

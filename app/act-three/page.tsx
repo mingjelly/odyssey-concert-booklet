@@ -148,9 +148,9 @@ export default function ActThree() {
 
           <ActNavigation
             prevHref="/act-two"
-            prevLabel="Act Two"
+            prevLabel="Prev"
             nextHref="/act-four"
-            nextLabel="Act Four"
+            nextLabel="Next"
           />
         </div>
 
