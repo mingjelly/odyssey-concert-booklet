@@ -138,8 +138,6 @@ export default function ActTwo() {
         />
 
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
-          <VideoPlaceholder label="Act Two — Full Performance" />
-
           {songs.map((song) => (
             <SongCard key={song.number} {...song} />
           ))}
