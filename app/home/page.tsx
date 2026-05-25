@@ -92,7 +92,7 @@ export default function HomePage() {
           {acts.map((act) => (
             <Link key={act.href} href={act.href} style={{
               textDecoration: 'none', display: 'block',
-              position: 'relative', overflow: 'hidden', height: 'clamp(320px, 78vw, 460px)',
+              position: 'relative', overflow: 'hidden', minHeight: 'clamp(360px, 85vw, 460px)',
             }}>
               {act.image && (
                 <img src={act.image} alt="" style={{
@@ -120,7 +120,7 @@ export default function HomePage() {
                 }}>
                   {act.title}
                 </h2>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.45rem' }}>
                   {act.songs.map((song, i) => (
                     <div key={i} style={{
                       display: 'flex', alignItems: 'baseline', gap: '0.5rem',
