@@ -90,7 +90,7 @@ const songs = [
     arranger: 'Sunny Wang',
     cast: [
       { voice: 'Solo', names: 'Zea' },
-      { voice: 'Soprano 1', names: 'Hao Rui' },
+      { voice: 'Soprano 1', names: 'Haorui' },
       { voice: 'Soprano 2', names: 'Riley' },
       { voice: 'Mezzo', names: 'Nicole' },
       { voice: 'Alto', names: 'Katherine' },

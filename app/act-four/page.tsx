@@ -30,7 +30,7 @@ const songs = [
     originalBy: 'IVE',
     arranger: 'Raymond Chan',
     cast: [
-      { voice: 'Soprano 1', names: 'Hao Rui' },
+      { voice: 'Soprano 1', names: 'Haorui' },
       { voice: 'Soprano 2', names: 'Napin' },
       { voice: 'Mezzo 1', names: 'Solange' },
       { voice: 'Mezzo 2', names: 'Shennon' },

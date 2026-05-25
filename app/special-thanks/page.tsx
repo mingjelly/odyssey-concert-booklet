@@ -30,7 +30,7 @@ const sections = [
   },
   { title: 'Stage Managers',
     items: [{ name: 'Wan Xin'},
-        {name: 'Mei Wen'},
+        {name: 'Meiwen'},
     ],
   },
     { title: 'Emcees',
