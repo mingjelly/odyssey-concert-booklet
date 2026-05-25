@@ -40,7 +40,7 @@ export default function HomePage() {
       </div>
 
       {/* Content */}
-      <div style={{ position: 'relative', zIndex: 1, padding: '0 clamp(1rem, 4vw, 2rem) 4rem', maxWidth: '1100px', margin: '0 auto' }}>
+      <div style={{ position: 'relative', zIndex: 1, padding: '0 clamp(0.9rem, 4vw, 1.6rem) 4rem', maxWidth: '1100px', margin: '0 auto' }}>
 
         {/* Foreword / About / Acknowledgements nav bar */}
         <div style={{
@@ -92,7 +92,7 @@ export default function HomePage() {
           {acts.map((act) => (
             <Link key={act.href} href={act.href} style={{
               textDecoration: 'none', display: 'block',
-              position: 'relative', overflow: 'hidden', minHeight: 'clamp(360px, 85vw, 460px)',
+              position: 'relative', overflow: 'hidden', minHeight: 'clamp(300px, 85vw, 460px)',
             }}>
               {act.image && (
                 <img src={act.image} alt="" style={{
@@ -115,7 +115,7 @@ export default function HomePage() {
                   Act {act.number}
                 </div>
                 <h2 style={{
-                  fontFamily: 'Cinzel, serif', fontWeight: 400, fontSize: 'clamp(1.1rem, 5vw, 1.8rem)',
+                  fontFamily: 'Cinzel, serif', fontWeight: 400, fontSize: 'clamp(1.25rem, 5.2vw, 2rem)',
                   color: '#f5f0e8', letterSpacing: '0.08em', marginBottom: '1.25rem', lineHeight: 1.15,
                 }}>
                   {act.title}
@@ -124,12 +124,12 @@ export default function HomePage() {
                   {act.songs.map((song, i) => (
                     <div key={i} style={{
                       display: 'flex', alignItems: 'baseline', gap: '0.5rem',
-                      fontFamily: 'EB Garamond, serif', fontSize: 'clamp(0.72rem, 2.8vw, 1rem)',
+                      fontFamily: 'EB Garamond, serif', fontSize: 'clamp(0.82rem, 3vw, 1.05rem)',
                       color: 'rgba(245,240,232,0.8)', lineHeight: 1.3, flexWrap: 'wrap',
                     }}>
                       <span style={{
                         fontFamily: 'Cormorant Garamond, serif', fontStyle: 'italic',
-                        fontSize: 'clamp(0.62rem, 2vw, 0.8rem)', color: 'rgba(201,168,76,0.9)', flexShrink: 0,
+                        fontSize: 'clamp(0.7rem, 2.2vw, 0.9rem)', color: 'rgba(201,168,76,0.9)', flexShrink: 0,
                       }}>
                         {String((act.number - 1) * 5 + i + 1).padStart(2, '0')}
                       </span>
