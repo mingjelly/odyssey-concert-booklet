@@ -80,7 +80,7 @@ const songs = [
       { voice: 'Bass', names: 'Benny' },
       { voice: 'VP', names: 'Lei' },
     ],
-    description: 'This a capella piece starts with “Supermarket” by Say Now before slowly morphing into “Cardboard Box” by British R&B girl group FLO. It tells the story of a person overwhelmed with thoughts and emotions following a breakup before finding the path forward, by the packing of their ex’s things in cardboard boxes. Arranger Hoang captured the essence of R&B with this arrangement, taking the audience on a soulful journey of resolve and healing.',
+    description: 'This a cappella piece starts with “Supermarket” by Say Now before slowly morphing into “Cardboard Box” by British R&B girl group FLO. It tells the story of a person overwhelmed with thoughts and emotions following a breakup before finding the path forward, by the packing of their ex’s things in cardboard boxes. Arranger Hoang captured the essence of R&B with this arrangement, taking the audience on a soulful journey of resolve and healing.',
     images: [
        {image: '/images/act3/cbb_group.jpg'},
        {image: '/images/act3/cbb_2.jpg'},

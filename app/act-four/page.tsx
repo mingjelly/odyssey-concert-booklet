@@ -30,8 +30,8 @@ const songs = [
     originalBy: 'IVE',
     arranger: 'Raymond Chan',
     cast: [
-      { voice: 'Soprano 1', names: 'Haorui' },
-      { voice: 'Soprano 2', names: 'Napin' },
+      { voice: 'Soprano 1', names: 'Napin' },
+      { voice: 'Soprano 2', names: 'Haorui' },
       { voice: 'Mezzo 1', names: 'Solange' },
       { voice: 'Mezzo 2', names: 'Shennon' },
       { voice: 'Alto', names: 'Katherine' },
@@ -98,7 +98,7 @@ const songs = [
       { voice: 'Bass 1', names:'Oak' },
       { voice: 'Bass 2', names:'Matthias' }
     ],
-    description: 'A farewell piece from the graduating batch of NUS Resonance, “Dog Days Are Over” by Florence and the Machines is an exuberant celebration of their joyful time in the group. More than just an ending, it is a heartfelt thank you to NUS Resonance for helping them wade through the difficult dog days of their studies and personal lives. In this rendition, familiar melodic fragments are interwoven to create a sense of nostalgia and fulfilment that the singers experience as they close an unforgettable chapter in their journey.',
+    description: 'A farewell piece from the graduating batch of NUS Resonance, “Dog Days Are Over” by Florence + The Machine is an exuberant celebration of their joyful time in the group. More than just an ending, it is a heartfelt thank you to NUS Resonance for helping them wade through the difficult dog days of their studies and personal lives. In this rendition, familiar melodic fragments are interwoven to create a sense of nostalgia and fulfilment that the singers experience as they close an unforgettable chapter in their journey.',
   },
   {
     number: 21,
