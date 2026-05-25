@@ -44,32 +44,35 @@ export default function HomePage() {
 
         {/* Foreword / About / Acknowledgements nav bar */}
         <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+          display: 'flex',
+          flexDirection: 'column',
           borderTop: '1px solid rgba(201,168,76,0.2)',
           borderBottom: '1px solid rgba(201,168,76,0.2)',
           marginBottom: '4rem',
-          textAlign: 'center',
         }}>
           {pages.map((page, i) => (
-            <Link key={page.href} href={page.href} className="nav-btn" style={{
-              padding: '1rem 0.75rem',
-              borderRight: i < pages.length - 1
-                ? '1px solid rgba(201,168,76,0.2)'
-                : 'none',
+            <Link
+              key={page.href}
+              href={page.href}
+              className="nav-btn"
+              style={{
+                padding: '1rem 1.25rem',
+                borderBottom:
+                  i < pages.length - 1
+                    ? '1px solid rgba(201,168,76,0.2)'
+                    : 'none',
 
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
 
-              textAlign: 'center',
+                textAlign: 'center',
+                fontSize: 'clamp(0.85rem, 3vw, 1rem)',
 
-              whiteSpace: 'normal',
-              wordBreak: 'break-word',
-
-              fontSize: 'clamp(0.85rem, 2.5vw, 1rem)',
-              lineHeight: 1.3,
-            }}>
+                whiteSpace: 'normal',
+                wordBreak: 'break-word',
+              }}
+            >
               {page.label}
             </Link>
           ))}
