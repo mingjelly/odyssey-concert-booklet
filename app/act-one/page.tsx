@@ -6,7 +6,7 @@ import VideoPlaceholder from '../components/VideoPlaceholder';
 const songs = [
   {
     number: 1,
-    title: 'Greatest Showman Medley',
+    title: 'The Greatest Show',
     originalBy: 'The Greatest Showman',
     medley: [
       { title: 'The Greatest Show' },
@@ -38,7 +38,7 @@ const songs = [
     number: 2,
     title: 'Classic',
     originalBy: 'MKTO',
-    arranger: 'Marvin',
+    arranger: 'Marvin Choo',
     cast: [
       { voice: 'Tenor 1', names: 'Titus' },
       { voice: 'Tenor 2', names: 'Joseph' },
@@ -96,7 +96,7 @@ const songs = [
   },
   {
     number: 5,
-    title: 'Where is my Husband',
+    title: 'WHERE IS MY HUSBAND!',
     originalBy: 'RAYE',
     arranger: 'Gabriel Song',
     cast: [

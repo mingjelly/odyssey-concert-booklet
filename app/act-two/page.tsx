@@ -6,9 +6,9 @@ import VideoPlaceholder from '../components/VideoPlaceholder';
 const songs = [
   {
     number: 6,
-    title: 'Wildflower',
+    title: 'WILDFLOWER',
     originalBy: 'Billie Eilish',
-    arranger: 'Hao Ming',
+    arranger: 'Ng Hao Ming',
     cast: [
       { voice: 'Soprano', names: 'Heera' },
       { voice: 'Mezzo', names: 'Krystal' },
@@ -45,7 +45,7 @@ const songs = [
   },
   {
     number: 8,
-    title: "Can't Stand It",
+    title: "讨厌 (Can't Stand It)",
     originalBy: 'Rui En',
     arranger: 'Kyla Yew',
     cast: [
@@ -86,7 +86,7 @@ const songs = [
   {
     number: 10,
     title: 'Soft Universe',
-    originalBy: 'Aurora',
+    originalBy: 'AURORA',
     arranger: 'Sunny Wang',
     cast: [
       { voice: 'Solo', names: 'Zea' },
@@ -96,7 +96,7 @@ const songs = [
       { voice: 'Alto', names: 'Katherine' },
       { voice: 'Tenor 1', names: 'Ming Yang' },
       { voice: 'Tenor 2', names: 'Danish' },
-      { voice: 'Bass', names: 'Matthew' },
+      { voice: 'Bass', names: 'Matthew Loh' },
       { voice: 'VP', names: 'Garrick' },
     ],
     description: '',

@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
 const acts = [
-  { number: 1, title: 'Genesis', href: '/act-one', image: '/images/act1.jpg', songs: ['The Greatest Showman', 'Classic', 'Hypotheticals', 'Anganku Anganmu', 'Where is my Husband'] },
-  { number: 2, title: 'Flux', href: '/act-two', image: '/images/act2.jpg', songs: ['Wildflower', 'Situations', "Can't Stand It", 'The Door', 'Soft Universe'] },
-  { number: 3, title: 'Metamorphosis', href: '/act-three', image: '/images/act3.png', songs: ['Life is a Highway', 'Born Again', 'The Rise and Fall of a Midwest Princess Mashup', 'Cardboard Box', 'Medieval'] },
+  { number: 1, title: 'Genesis', href: '/act-one', image: '/images/act1.jpg', songs: ['The Greatest Show', 'Classic', 'Hypotheticals', 'Anganku Anganmu', 'WHERE IS MY HUSBAND!'] },
+  { number: 2, title: 'Flux', href: '/act-two', image: '/images/act2.jpg', songs: ['WILDFLOWER', 'Situations', "讨厌 (Can't Stand It)", 'The Door', 'Soft Universe'] },
+  { number: 3, title: 'Metamorphosis', href: '/act-three', image: '/images/act3.png', songs: ['Life is a Highway', 'Born Again', 'The Rise and Fall of a Midwest Princess Mashup', 'Cardboard Box', 'MEDIEVAL'] },
   { number: 4, title: 'Transcendance', href: '/act-four', image: '/images/act4.png', songs: ['I Will Survive', 'I AM', 'When the Day is Done', 'We Made It'] },
 ];
 
@@ -30,18 +30,9 @@ export default function HomePage() {
         overflow: 'hidden',
         textAlign: 'center',
       }}>
-      <img
-        src="/images/odyssey_hero.png"
-        alt=""
-        style={{
-          position: 'absolute',
-          inset: 0,
-          width: '100%',
-          height: '100%',
-          objectFit: 'contain',
-          backgroundColor: '#0a0805',
-        }}
-      />
+        <img src="/images/odyssey_hero.png" alt="" style={{
+          position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover',
+        }} />
         <div style={{
           position: 'absolute', inset: 0,
           background: 'linear-gradient(to bottom, rgba(26,21,16,0.15) 0%, rgba(26,21,16,0.05) 50%, rgba(26,21,16,1) 100%)',

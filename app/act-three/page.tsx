@@ -29,7 +29,7 @@ const songs = [
   {
     number: 12,
     title: 'Born Again',
-    originalBy: 'Lisa',
+    originalBy: 'LISA ft. Doja Cat & RAYE',
     arranger: 'Shirin Fadhlin',
     cast: [
       { voice: 'Soprano', names: 'Rinny' },
@@ -70,7 +70,7 @@ const songs = [
     number: 14,
     title: 'Cardboard Box',
     originalBy: 'FLO',
-    arranger: 'Hoang',
+    arranger: 'Nguyen Minh Hoang',
     cast: [
       { voice: 'Soprano', names: 'Yi Hui' },
       { voice: 'Mezzo 1', names: 'Eunice' },
@@ -89,9 +89,9 @@ const songs = [
   },
   {
     number: 15,
-    title: 'Medieval',
-    originalBy: 'Shazza',
-    arranger: 'Joseph',
+    title: 'MEDIEVAL',
+    originalBy: 'shazza',
+    arranger: 'Joseph Neo',
     cast: [
       { voice: 'Soprano', names: 'Solstice' },
       { voice: 'Mezzo', names: 'Shennon' },

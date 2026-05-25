@@ -48,7 +48,7 @@ const songs = [
     number: 18,
     title: 'When the Day is Done',
     originalBy: 'grentperez',
-    arranger: 'Marvin',
+    arranger: 'Marvin Choo',
     cast: [
       { voice: 'Soprano', names: 'Raeanne' },
       { voice: 'Mezzo', names: 'Chantrice' },
@@ -67,7 +67,7 @@ const songs = [
   {
     number: 19,
     title: 'We Made It',
-    originalBy: 'Sammy Rae & The Friends',
+    originalBy: 'Sammy Rae & The Friends ft. Celisse',
     arranger: 'Bryan Tan',
     cast: [
       { voice: 'Soprano', names: 'Xu En' },
