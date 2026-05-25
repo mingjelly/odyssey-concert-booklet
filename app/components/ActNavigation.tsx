@@ -64,11 +64,14 @@ export default function ActNavigation({ prevHref, prevLabel = 'Previous', nextHr
           }}>
         {nextHref && (
           <Link href={nextHref} className="nav-btn" style={{
-            whiteSpace: 'nowrap',
             display: 'inline-flex',
             alignItems: 'center',
-            height: '44px',
-            padding: '0 1.2rem',
+            justifyContent: 'center',
+            padding: '0.6rem 1rem',
+            flex: '1 1 auto',
+            minHeight: '44px',
+            textAlign: 'center',
+            fontSize: 'clamp(0.8rem, 3vw, 1rem)',
           }}>
             {nextLabel} →
           </Link>
