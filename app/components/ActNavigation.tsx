@@ -17,9 +17,12 @@ export default function ActNavigation({
     <div
       style={{
         display: 'grid',
-        gridTemplateColumns: '1fr auto 1fr',
+        gridTemplateColumns: '1fr 1fr 1fr',
         alignItems: 'center',
-        gap: '0.75rem',
+        width: '100%',
+        maxWidth: '100%',
+        boxSizing: 'border-box',
+        gap: '0.5rem',
         padding: '2.5rem 0',
         borderTop: '1px solid rgba(201,168,76,0.2)',
         marginTop: '4rem',
@@ -34,10 +37,18 @@ export default function ActNavigation({
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'flex-start',
+
+            minWidth: 0,
+            width: '100%',
+
             height: '44px',
             padding: '0 1rem',
-            whiteSpace: 'nowrap',
+
             fontSize: 'clamp(0.8rem, 3vw, 1rem)',
+
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            whiteSpace: 'nowrap',
           }}
         >
           ← {prevLabel}
@@ -54,11 +65,16 @@ export default function ActNavigation({
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
+
+          minWidth: 0,
+          width: '100%',
+
           height: '44px',
           padding: '0 1rem',
-          whiteSpace: 'nowrap',
+
           fontSize: 'clamp(0.8rem, 3vw, 1rem)',
-          justifySelf: 'center',
+
+          whiteSpace: 'nowrap',
         }}
       >
         ⬥ Programme
@@ -73,10 +89,18 @@ export default function ActNavigation({
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'flex-end',
+
+            minWidth: 0,
+            width: '100%',
+
             height: '44px',
             padding: '0 1rem',
-            whiteSpace: 'nowrap',
+
             fontSize: 'clamp(0.8rem, 3vw, 1rem)',
+
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            whiteSpace: 'nowrap',
           }}
         >
           {nextLabel} →
