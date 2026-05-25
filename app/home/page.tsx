@@ -40,7 +40,7 @@ export default function HomePage() {
       </div>
 
       {/* Content */}
-      <div style={{ position: 'relative', zIndex: 1, padding: '0 2rem 4rem', maxWidth: '1100px', margin: '0 auto' }}>
+      <div style={{ position: 'relative', zIndex: 1, padding: '0 clamp(1rem, 4vw, 2rem) 4rem', maxWidth: '1100px', margin: '0 auto' }}>
 
         {/* Foreword / About / Acknowledgements nav bar */}
         <div style={{
@@ -81,7 +81,7 @@ export default function HomePage() {
         {/* Programme label */}
         <div style={{
           fontFamily: 'Cormorant Garamond, serif', fontStyle: 'italic',
-          fontSize: '1rem', color: 'rgba(201,168,76,0.6)', letterSpacing: '0.1em',
+          fontSize: 'clamp(0.9rem, 3vw, 1rem)', color: 'rgba(201,168,76,0.6)', letterSpacing: '0.1em',
           textAlign: 'center', marginBottom: '2rem',
         }}>
           Programme
@@ -92,7 +92,7 @@ export default function HomePage() {
           {acts.map((act) => (
             <Link key={act.href} href={act.href} style={{
               textDecoration: 'none', display: 'block',
-              position: 'relative', overflow: 'hidden', height: 'clamp(240px, 60vw, 420px)',
+              position: 'relative', overflow: 'hidden', height: 'clamp(320px, 78vw, 460px)',
             }}>
               {act.image && (
                 <img src={act.image} alt="" style={{
@@ -104,19 +104,19 @@ export default function HomePage() {
                 background: 'linear-gradient(to top, rgba(10,8,5,0.95) 0%, rgba(10,8,5,0.55) 55%, rgba(10,8,5,0.1) 100%)',
               }} />
               <div style={{
-                position: 'relative', zIndex: 2, padding: '2rem', height: '100%',
+                position: 'relative', zIndex: 2, padding: 'clamp(1rem, 4vw, 2rem)', height: '100%',
                 display: 'flex', flexDirection: 'column', justifyContent: 'flex-end',
               }}>
                 <div style={{
                   fontFamily: 'Cormorant Garamond, serif', fontStyle: 'italic',
-                  fontSize: '0.8rem', letterSpacing: '0.25em', color: 'rgba(201,168,76,0.9)',
+                  fontSize: 'clamp(0.65rem, 2vw, 0.85rem)', letterSpacing: '0.25em', color: 'rgba(201,168,76,0.9)',
                   textTransform: 'uppercase', marginBottom: '0.4rem',
                 }}>
                   Act {act.number}
                 </div>
                 <h2 style={{
-                  fontFamily: 'Cinzel, serif', fontWeight: 400, fontSize: '1.4rem',
-                  color: '#f5f0e8', letterSpacing: '0.08em', marginBottom: '1.25rem',
+                  fontFamily: 'Cinzel, serif', fontWeight: 400, fontSize: 'clamp(1.1rem, 5vw, 1.8rem)',
+                  color: '#f5f0e8', letterSpacing: '0.08em', marginBottom: '1.25rem', lineHeight: 1.15,
                 }}>
                   {act.title}
                 </h2>
@@ -124,16 +124,18 @@ export default function HomePage() {
                   {act.songs.map((song, i) => (
                     <div key={i} style={{
                       display: 'flex', alignItems: 'baseline', gap: '0.5rem',
-                      fontFamily: 'EB Garamond, serif', fontSize: '0.95rem',
-                      color: 'rgba(245,240,232,0.8)',
+                      fontFamily: 'EB Garamond, serif', fontSize: 'clamp(0.72rem, 2.8vw, 1rem)',
+                      color: 'rgba(245,240,232,0.8)', lineHeight: 1.3, flexWrap: 'wrap',
                     }}>
                       <span style={{
                         fontFamily: 'Cormorant Garamond, serif', fontStyle: 'italic',
-                        fontSize: '0.75rem', color: 'rgba(201,168,76,0.9)', flexShrink: 0,
+                        fontSize: 'clamp(0.62rem, 2vw, 0.8rem)', color: 'rgba(201,168,76,0.9)', flexShrink: 0,
                       }}>
                         {String((act.number - 1) * 5 + i + 1).padStart(2, '0')}
                       </span>
-                      {song}
+                      <span style={{ overflowWrap: 'anywhere' }}>
+                        {song}
+                      </span>
                     </div>
                   ))}
                 </div>
