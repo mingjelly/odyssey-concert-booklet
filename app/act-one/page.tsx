@@ -146,8 +146,6 @@ export default function ActOne() {
         <ActHero
           actNumber={1}
           actTitle="Act One: Genesis"
-          gradientFrom="#1f1a0e"
-          gradientTo="#1a1510"
         />
 
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>

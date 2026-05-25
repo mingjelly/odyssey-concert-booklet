@@ -137,8 +137,6 @@ export default function ActThree() {
         <ActHero
           actNumber={3}
           actTitle="Act Three: Metamorphosis"
-          gradientFrom="#1a0e0e"
-          gradientTo="#1a1510"
         />
 
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>

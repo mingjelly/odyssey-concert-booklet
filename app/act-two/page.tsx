@@ -135,8 +135,6 @@ export default function ActTwo() {
         <ActHero
           actNumber={2}
           actTitle="Act Two: Flux"
-          gradientFrom="#0e1520"
-          gradientTo="#1a1510"
         />
 
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>

@@ -2,18 +2,16 @@ interface ActHeroProps {
   actNumber: number;
   actTitle: string;
   subtitle?: string;
-  gradientFrom?: string;
-  gradientTo?: string;
 }
 
-export default function ActHero({ actNumber, actTitle, subtitle, gradientFrom = '#2d1f0e', gradientTo = '#1a1510' }: ActHeroProps) {
+export default function ActHero({ actNumber, actTitle, subtitle}: ActHeroProps) {
   return (
     <div style={{
       position: 'relative',
       minHeight: 'clamp(30vh, 40vh, 55vh)',
       display: 'flex',
       alignItems: 'flex-end',
-      background: `linear-gradient(135deg, ${gradientFrom} 0%, ${gradientTo} 60%, #1a1510 100%)`,
+      background: `transparent`,
       overflow: 'hidden',
       marginBottom: '2rem',
     }}>
