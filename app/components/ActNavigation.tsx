@@ -74,7 +74,7 @@ export default function ActNavigation({
           flex: '0 0 auto',
         }}
       >
-        ⬥ Programme
+        ⬥ Home
       </Link>
 
       {/* RIGHT */}
