@@ -3,7 +3,7 @@ import Link from 'next/link';
 const committee = [
   { role: 'President', name: 'Katherine' },
   { role: 'Vice President (Internal)', name: 'Oak' },
-  { role: 'Vice President (External)', name: 'Vicelya Visakha' },
+  { role: 'Vice President (External)', name: 'Vicelya' },
   { role: 'Musical Director', name: 'Napin' },
   { role: 'Musical Director', name: 'Luis' },
   { role: 'Secretary', name: 'Vienna' },
@@ -18,7 +18,7 @@ const subcommittees = [
     subsections: [
       { label: '', names: ['Rinny','Nicky', 'Xin Hui', 'Titus', 'Marvin','Edlyn','Riley','Vicelya','Wan Xin', 'Meiwen', 'Josiah', 'Chloe', 'Oak','Sandy','Naomi'] },
       { label: 'ACT Teasers, Interviews and Odyssey Airline Editors', names: ['Rinny', 'Nicky', 'Xin Hui', 'Marvin']},
-      { label: 'ACT Teaser actors', names: ['Eunice', 'Zea', 'Luis', 'Chantrice', 'Isaac', ' Marvin', 'Yi Cheng', 'Josiah', 'Xin Hui', 'Rinny', 'Napin']},
+      { label: 'ACT Teaser actors', names: ['Eunice', 'Zea', 'Luis', 'Chantrice', 'Isaac Lee', ' Marvin', 'Yi Cheng', 'Josiah', 'Xin Hui', 'Rinny', 'Napin']},
       { label: 'Photoshoot Helpers', names: ['Nicky', 'Rinny', 'Shira', 'Napin', 'Danial', 'Yi Cheng', 'Justin', 'Katherine', 'Riley', 'Shennon', 'Meiwen', 'Xin Hui', 'Josiah', 'Chloe', 'Ming Yang', 'Oak'] },
       { label: 'Website Team', names: ['Cleon', 'Raymond']},
       { label: 'Concert Booklet', names: ['Ming Yang']}
@@ -27,7 +27,7 @@ const subcommittees = [
   {
     title: 'Welfare Subcommittee',
     subsections: [
-      { label: '', names: ['Danial','Xin Hui', 'Titus', 'Solange', 'Zea', 'Edlyn', 'Naomi', 'Yi Cheng', 'Lershan', 'Rinny', 'Isaac']}
+      { label: '', names: ['Danial','Xin Hui', 'Titus', 'Solange', 'Zea', 'Edlyn', 'Naomi', 'Yi Cheng', 'Lershan', 'Rinny', 'Isaac Ling']}
     ]
   },
   {

@@ -96,7 +96,7 @@ const songs = [
       { voice: 'Alto 3', names:'Yi Cheng' },
       { voice: 'Baritone', names:'Nicky' },
       { voice: 'Bass 1', names:'Oak' },
-      { voice: 'Bass 2', names:'Matthias Khoo' }
+      { voice: 'Bass 2', names:'Matthias' }
     ],
     description: '',
   },

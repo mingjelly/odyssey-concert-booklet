@@ -14,7 +14,7 @@ const songs = [
       { voice: 'Mezzo', names: 'Krystal' },
       { voice: 'Alto', names: 'Angel' },
       { voice: 'Tenor', names: 'Marvin' },
-      { voice: 'Bass', names: 'Isaac' }
+      { voice: 'Bass', names: 'Isaac Lee' }
     ],
     description: '',
     images: [
@@ -54,7 +54,7 @@ const songs = [
       { voice: 'Alto', names: 'Naomi' },
       { voice: 'Tenor', names: 'Titus' },
       { voice: 'Bass', names: 'You Hung' },
-      { voice: 'VP', names: 'Tee Lei' },
+      { voice: 'VP', names: 'Lei' },
     ],
     description: '',
     images: [
@@ -74,7 +74,7 @@ const songs = [
       { voice: 'Tenor', names: 'Xavier' },
       { voice: 'Baritone', names: 'Reuben' },
       { voice: 'Bass', names: 'Josiah' },
-      { voice: 'VP', names: 'Ryan Chen' },
+      { voice: 'VP', names: 'Ryan' },
     ],
     description: '',
     images: [

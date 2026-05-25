@@ -25,7 +25,7 @@ const songs = [
       { voice: 'Tenor 1', names: 'Syaz' },
       { voice: 'Tenor 2', names: 'Reuben' },
       { voice: 'Bass', names: 'Justin' },
-      { voice: 'VP', names: 'Tee Lei' },
+      { voice: 'VP', names: 'Lei' },
     ],
     description: '',
     images: [
@@ -82,10 +82,10 @@ const songs = [
     cast: [
       { voice: 'Soprano', names: 'Eunice' },
       { voice: 'Mezzo', names: 'Shira' },
-      { voice: 'Alto', names: 'Vicel' },
+      { voice: 'Alto', names: 'Vicelya' },
       { voice: 'Tenor', names: 'Isaac Ling' },
       { voice: 'Bass', names: 'Howie' },
-      { voice: 'VP', names: 'Ryan Chen' },
+      { voice: 'VP', names: 'Ryan' },
     ],
     description: '',
     images: [

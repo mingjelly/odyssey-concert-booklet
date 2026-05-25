@@ -56,7 +56,7 @@ const songs = [
       { voice: 'Mezzo', names: 'Laura' },
       { voice: 'Alto', names: 'Vicelya' },
       { voice: 'Tenor', names: 'Isaac Ling' },
-      { voice: 'Bass', names: 'Matthias Khoo' },
+      { voice: 'Bass', names: 'Matthias' },
       { voice: 'VP', names: 'Xin Hui' },
     ],
     description: '',
@@ -74,7 +74,7 @@ const songs = [
     cast: [
       { voice: 'Soprano', names: 'Yi Hui' },
       { voice: 'Mezzo 1', names: 'Eunice' },
-      { voice: 'Mezzo 2', names: 'Cassia Yap' },
+      { voice: 'Mezzo 2', names: 'Cassia' },
       { voice: 'Alto', names: 'Vienna' },
       { voice: 'Tenor', names: 'Syaz' },
       { voice: 'Bass', names: 'Benny' },
