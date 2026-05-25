@@ -17,7 +17,7 @@ const songs = [
       { voice: 'Bass', names: 'Zacharius' },
       { voice: 'VP', names: 'Oak' },
     ],
-    description: '',
+    description: 'Originally performed by Gloria Gaynor, “I Will Survive” is a classic disco anthem about walking away from a bad relationship with style and confidence. Arranged by Matthew Chang, this rendition embraces the sassiness of the lyrics, heightening the camp and playfulness of the original with references inspired by various covers of the song.',
     images: [
        {image: '/images/act4/survive_group.jpg'},
        {image: '/images/act4/survive_2.jpg'},
@@ -37,7 +37,7 @@ const songs = [
       { voice: 'Alto', names: 'Katherine' },
       { voice: 'VP', names: 'Xin Hui' },
     ],
-    description: '',
+    description: "아이브의 'I AM'은 당당한 자기 확신과 주체적인 삶을 노래하는 궁극의 자존감 송입니다. 삶이라는 무대에서 다른 사람이 짜놓은 각본이 아닌, 내가 직접 내 삶의 리소스를 쓰고 이야기를 써내려 가겠다는 주체적인 메시지를 담고 있습니다. 후반부로 갈수록 고조되는 시원한 고음과 보컬 벨팅 덕분에 마치 영화의 주인공이 되어 하늘을 비행하는 듯한 승리감과 해방감을 줍니다. IVE's hit song I AM is an explosive, high-energy anthem of self-love and fearless individuality, empowering us to take control, embrace our fears and be our genuine selves. Be inspired by NUS Resonance's very own K-pop girl group as they wow you with their powerful voices, dazzling choreography and unapologetic confidence. 'Be a writer, 장르로는 fantasy' - you are the author of your own destiny. How will you craft your masterpiece?",
     images: [
        {image: '/images/act4/iam_group.jpg'},
        {image: '/images/act4/iam_2.jpg'},
@@ -57,7 +57,7 @@ const songs = [
       { voice: 'Bass', names: 'Oak' },
       { voice: 'VP', names: 'Garrick' },
     ],
-    description: '',
+    description: 'A love letter to NUS Resonance, this piece reflects upon the solace this club has provided us after long days at school or work. While the original discusses the comfort of family, arranger Marvin re-interprets the song to express his gratitude to the NUS Resonance family and the safe space it has provided for its members to flourish. Listen out for the interpolation of “Valerie” by Mark Ronson and Amy Winehouse, a song which has been covered by many generations of Resonance members as part of the Resonance First-Year (RFY) course!',
     images: [
        {image: '/images/act4/wttid_group.jpg'},
        {image: '/images/act4/wttid_2.jpg'},
@@ -77,7 +77,7 @@ const songs = [
       { voice: 'Bass', names: 'Howie' },
       { voice: 'VP', names: 'Edlyn' },
     ],
-    description: '',
+    description: 'Sammy Rae & The Friends once again pulls into a groovy tune narrating the hard work put in by the everyday people for their success, from the early morning jobs, creating communities, and of course, standing up after repeated failures. And for us, it is also a celebration of all the efforts we have collectively invested into making this concert a success, and we have finally reached the end of our journey. We made it!',
     images: [
        {image: '/images/act4/wemadeit_group.jpg'},
        {image: '/images/act4/wemadeit_2.jpg'},
@@ -98,7 +98,7 @@ const songs = [
       { voice: 'Bass 1', names:'Oak' },
       { voice: 'Bass 2', names:'Matthias' }
     ],
-    description: '',
+    description: 'A farewell piece from the graduating batch of NUS Resonance, “Dog Days Are Over” by Florence and the Machines is an exuberant celebration of their joyful time in the group. More than just an ending, it is a heartfelt thank you to NUS Resonance for helping them wade through the difficult dog days of their studies and personal lives. In this rendition, familiar melodic fragments are interwoven to create a sense of nostalgia and fulfilment that the singers experience as they close an unforgettable chapter in their journey.',
   },
   {
     number: 21,
@@ -127,7 +127,7 @@ const songs = [
       'Eunice',
       'Vienna'
     ],
-    description: '',
+    description: '“Another Day of the Sun” brings a grand end to Odyssey, but certainly not the end of our journey. Hailing from the movie La La Land, this piece is a vibrant tribute to dreamers in you. Set against the story backdrop of an aspiring artist, and interwoven with a brief return to “Epilogue” from La La Land, this finale captures our members’ hard work, perseverance, and shared memories culminating in this concert, and a promise that new hope will arise as we pick up pace again next year.  As the final chords ring out, we hope this journey reminds you that even amidst uncertainty, there will always be another song to sing, another stage to stand on, and another day of sun waiting just beyond the horizon.',
   }
 ];
 

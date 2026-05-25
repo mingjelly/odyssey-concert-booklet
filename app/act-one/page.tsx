@@ -27,7 +27,7 @@ const songs = [
       { voice: 'Bass', names: 'Justin' },
       { voice: 'VP', names: 'Lei' },
     ],
-    description: '',
+    description: 'Opening the concert is “The Greatest Show”, a rendition of the exhilarating opening number of the movie The Greatest Showman. This piece encapsulates the longing for one’s dream and passion, a celebration of the richness and diversity of experience that culminates in this one grand show. Arranger Isaac brings forward this feeling of unity and diversity through contrasting powerful chants in unison with overflowing counter-melodies, setting the tone of this Odyssey with a festive, jubilant beginning. ',
     images: [
        {image: '/images/act1/showman_group.jpg'},
        {image: '/images/act1/showman_2.jpg'},
@@ -47,7 +47,7 @@ const songs = [
       { voice: 'Bass', names: 'Derek' },
       { voice: 'VP', names: 'Ian' },
     ],
-    description: '',
+    description: 'Dive into the upbeat groove of Odyssey with “Classic”, originally performed by American pop music duo MKTO. A mashup with Jackson 5’s “I Want You Back”,  arranger Marvin infuses this piece with signature motifs from iconic Motown, funk, and R&B artists, such as Michael Jackson and Prince. To all the timeless beauties in the crowd: get ready to be serenaded by our very own boy band! ',
     images: [
        {image: '/images/act1/classic_group.jpg'},
        {image: '/images/act1/classic_2.jpg'},
@@ -67,7 +67,7 @@ const songs = [
       { voice: 'Bass', names: 'Josiah' },
       { voice: 'VP', names: 'Xiang Rong' },
     ],
-    description: '',
+    description: '“Hypotheticals” by Lake Street Dive is a playful song envisioning the plethora of what-ifs that entail from a potential romantic relationship and the courage to face those uncertainties.  Arranged by Sherwin, this rendition aims to bring out a sense of fun and youthful expression from the singers, a spirit we hope will be shared with the audience as well. ',
     images: [
        {image: '/images/act1/hypo_group.jpg'},
        {image: '/images/act1/hypo_2.jpg'},
@@ -87,7 +87,7 @@ const songs = [
       { voice: 'Bass', names: 'Howie' },
       { voice: 'VP', names: 'Ryan' },
     ],
-    description: '',
+    description: 'Originally performed by Indonesian singers Raisa and Isyana Sarasvati, “Anganku Anganmu” is a piece that advocates for overcoming differences and meaningless arguments among friends. Arranged by Vicelya, its evocative duets backed by layered background voices depict the strength of friendship and unity of ideas, both powerful tools used to overcome challenges and work towards one single purpose. ',
     images: [
        {image: '/images/act1/anganku_group.jpg'},
        {image: '/images/act1/anganku_2.jpg'},
@@ -110,7 +110,7 @@ const songs = [
       { voice: 'Bass', names: 'Bryan' },
       { voice: 'VP', names: 'Ian' },
     ],
-    description: '',
+    description: 'British singer RAYE’s “WHERE IS MY HUSBAND!” is a riveting piece mixing R&B and pop tracks that explores the longing for a husband, intertwined with the frustration and exasperation that can come with the search for love. Gabriel’s a cappella rendition of this song builds on its already clever writing, reimagining in a way that highlights Resonance’s greatest strength, its brilliantly creative members, to bring new colour and character to the song.',
     images: [
        {image: '/images/act1/husband_group.jpg'},
        {image: '/images/act1/husband_2.jpg'},

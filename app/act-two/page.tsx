@@ -16,7 +16,7 @@ const songs = [
       { voice: 'Tenor', names: 'Marvin' },
       { voice: 'Bass', names: 'Isaac Lee' }
     ],
-    description: '',
+    description: 'Originally performed by Billie Eilish, “WILDFLOWER” is a solemn piece recounting her experience in consoling a heartbroken friend whilst being in a relationship with her friend’s partner in the future. It is a heartbreaking tale of guilt and isolation, conveyed through layered, complex harmonies. Arranger Hao Ming’s deliberate choice to not include a vocal percussion part further brings out the raw emotions from the vocalists, immersing the audience with sorrow.',
     images: [
        {image: '/images/act2/wildflower_group.jpg'},
        {image: '/images/act2/wildflower_2.jpg'},
@@ -36,7 +36,7 @@ const songs = [
       { voice: 'Bass', names: 'Bryan' },
       { voice: 'VP', names: 'Edlyn' },
     ],
-    description: '',
+    description: 'Nicolina is no stranger to false hope and mixed signals; “Situations” explores the longing for a deeper connection in a situationship but realising that it’s always going to be out of your reach, leaving one just shy of true catharsis.',
     images: [
        {image: '/images/act2/situations_group.jpg'},
        {image: '/images/act2/situations_2.jpg'},
@@ -56,7 +56,7 @@ const songs = [
       { voice: 'Bass', names: 'You Hung' },
       { voice: 'VP', names: 'Lei' },
     ],
-    description: '',
+    description: '讨厌 (“Can’t Stand It”) performed by Singaporean singer Rui En is an upbeat pop-R&B track that describes the frustration of being with a partner who treats love like a game. It captures the emotional exhaustion of being stuck in a one-sided relationship, sung beautifully by its soloists across rhythmic, catchy beats and soothing melodies.',
     images: [
        {image: '/images/act2/taoyan_group.jpg'},
        {image: '/images/act2/taoyan_2.jpg'},
@@ -76,7 +76,7 @@ const songs = [
       { voice: 'Bass', names: 'Josiah' },
       { voice: 'VP', names: 'Ryan' },
     ],
-    description: '',
+    description: 'Originally performed by Teddy Swims, “The Door” is a powerful reflection on saving one’s life by walking away from an abusive relationship. The arrangers, Krystal and Xavier, add an imaginative twist to the piece, with the arrangement featuring two halves of a couple, taking turns telling their side of the story theatrically. This brings out the messy drama and the fallout of a broken relationship that the audience will definitely enjoy.',
     images: [
        {image: '/images/act2/door_group.jpg'},
        {image: '/images/act2/door_2.jpg'},
@@ -99,7 +99,7 @@ const songs = [
       { voice: 'Bass', names: 'Matthew Loh' },
       { voice: 'VP', names: 'Garrick' },
     ],
-    description: '',
+    description: 'Originally performed by the Norwegian artist AURORA, this atmospheric piece spoke of the immense pain that we go through in life and the longing desire for protection from this pain. Its lyrics hope for a peaceful sanctuary from the chaos of the world, and sing of the belief that love is the shelter that is required. Arranger Sunny utilises the full extent of the human voice, from haunting whispers to thundering chants, in this a capella rendition to enhance the ethereal nature of the song.',
     images: [
        {image: '/images/act2/softuni_group.jpg'},
        {image: '/images/act2/softuni_2.jpg'},

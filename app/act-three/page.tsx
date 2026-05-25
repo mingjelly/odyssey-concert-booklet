@@ -19,7 +19,7 @@ const songs = [
       { voice: 'Bass', names: 'Zacharius' },
       { voice: 'VP', names: 'Ian' },
     ],
-    description: '',
+    description: "Originally written and performed by Tom Cochrane in 1991 and covered by Rascal Flatts for the Pixar animated film Cars (2006), 'Life Is a Highway' is a carefree embrace of all of life's twists and turns, and the joy that comes with riding it out with the people you love. This a cappella rendition leans into fun and exuberance, pulling inspiration from Alex Melton's pop-punk cover of the song and iconic boy bands like *NSYNC, Backstreet Boys, and The Treblemakers, as well as featuring several cheeky easter eggs from various songs about... well, cars. ᵏᵃ⁻ᶜʰᵒʷ⚡️",
     images: [
        {image: '/images/act3/highway_group.jpg'},
        {image: '/images/act3/highway_2.jpg'},
@@ -39,7 +39,7 @@ const songs = [
       { voice: 'Bass', names: 'Derek' },
       { voice: 'VP', names: 'Aditya' },
     ],
-    description: '',
+    description: 'Originally performed by LISA, Doja Cat and RAYE, “Born Again” is an empowerment anthem narrating the stories of women leaving toxic relationships and feeling the rejuvenation of being born anew. A Pop mix of fierce and smooth vocals and vicious rap verses, the song encourages the gathering of strength among those who want to create a new life for themselves. ',
     images: [
        {image: '/images/act3/bornagain_group.jpg'},
        {image: '/images/act3/bornagain_2.jpg'},
@@ -59,7 +59,7 @@ const songs = [
       { voice: 'Bass', names: 'Matthias' },
       { voice: 'VP', names: 'Xin Hui' },
     ],
-    description: '',
+    description: 'This mashup of Chappell Roan’s debut album, The Rise and Fall of Midwest Princess, embodies the colourful vibrancy of her songs: electric, witty, and campy. Arranged by Sandhya, this piece pulls together narrative threads in each of the 14 songs in the album into one cohesive story, a chaotic journey of self-discovery. It is also a reflection of Chappell Roan’s own life journey that many will surely connect with.',
     images: [
        {image: '/images/act3/chappell_group.jpg'},
        {image: '/images/act3/chappell_2.jpg'},
@@ -80,7 +80,7 @@ const songs = [
       { voice: 'Bass', names: 'Benny' },
       { voice: 'VP', names: 'Lei' },
     ],
-    description: '',
+    description: 'This a capella piece starts with “Supermarket” by Say Now before slowly morphing into “Cardboard Box” by British R&B girl group FLO. It tells the story of a person overwhelmed with thoughts and emotions following a breakup before finding the path forward, by the packing of their ex’s things in cardboard boxes. Arranger Hoang captured the essence of R&B with this arrangement, taking the audience on a soulful journey of resolve and healing.',
     images: [
        {image: '/images/act3/cbb_group.jpg'},
        {image: '/images/act3/cbb_2.jpg'},
@@ -100,7 +100,7 @@ const songs = [
       { voice: 'Bass', names: 'You Hung' },
       { voice: 'VP', names: 'Xiang Rong' },
     ],
-    description: '',
+    description: '"MEDIEVAL" by shazza is an empowering anthem that calls on women to be fearlessly true to themselves. It explores the emotional depth and powerful resilience of womanhood, drawing on symbolism from the Middle Ages to reflect the struggles that women may face due to society’s often reductive expectations. Our a cappella rendition, arranged by Joseph, amplifies this emotional intensity through a darker, more immersive vocal energy, reflecting the raw tension between strength and fragility, honesty and inner conflict.',
     images: [
        {image: '/images/act3/medieval_group.jpg'},
        {image: '/images/act3/medieval_2.jpg'},
