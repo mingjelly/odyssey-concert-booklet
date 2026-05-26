@@ -99,7 +99,7 @@ const songs = [
       { voice: 'Bass', names: 'Matthew Loh' },
       { voice: 'VP', names: 'Garrick' },
     ],
-    description: 'Originally performed by the Norwegian artist AURORA, this atmospheric piece spoke of the immense pain that we go through in life and the longing desire for protection from this pain. Its lyrics hope for a peaceful sanctuary from the chaos of the world, and sing of the belief that love is the shelter that is required. Arranger Sunny utilises the full extent of the human voice, from haunting whispers to thundering chants, in this a capella rendition to enhance the ethereal nature of the song.',
+    description: 'Originally performed by the Norwegian artist AURORA, this atmospheric piece spoke of the immense pain that we go through in life and the longing desire for protection from this pain. Its lyrics hope for a peaceful sanctuary from the chaos of the world, and sing of the belief that love is the shelter that is required. Arranger Sunny utilises the full extent of the human voice, from haunting whispers to thundering chants, in this a cappella rendition to enhance the ethereal nature of the song.',
     images: [
        {image: '/images/act2/softuni_group.jpg'},
        {image: '/images/act2/softuni_2.jpg'},
