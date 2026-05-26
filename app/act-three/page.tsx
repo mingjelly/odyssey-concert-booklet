@@ -39,7 +39,7 @@ const songs = [
       { voice: 'Bass', names: 'Derek' },
       { voice: 'VP', names: 'Aditya' },
     ],
-    description: 'Originally performed by LISA, Doja Cat and RAYE, “Born Again” is an empowerment anthem narrating the stories of women leaving toxic relationships and feeling the rejuvenation of being born anew. A Pop mix of fierce and smooth vocals and vicious rap verses, the song encourages the gathering of strength among those who want to create a new life for themselves. ',
+    description: 'Originally performed by LISA, Doja Cat and RAYE, “Born Again” is an empowerment anthem narrating the stories of women leaving toxic relationships and feeling the rejuvenation of being born anew. A pop mix of fierce and smooth vocals and vicious rap verses, the song encourages the gathering of strength among those who want to create a new life for themselves. ',
     images: [
        {image: '/images/act3/bornagain_group.jpg'},
        {image: '/images/act3/bornagain_2.jpg'},
