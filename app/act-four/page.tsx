@@ -11,7 +11,7 @@ const songs = [
     arranger: 'Matthew Chang',
     cast: [
       { voice: 'Soprano', names: 'Rinny' },
-      { voice: 'Mezzo', names: 'Shira*' },
+      { voice: 'Mezzo', names: 'Shira' },
       { voice: 'Alto', names: 'Yasmin' },
       { voice: 'Tenor', names: 'Danial' },
       { voice: 'Bass', names: 'Zacharius' },
