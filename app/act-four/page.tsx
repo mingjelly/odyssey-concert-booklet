@@ -57,7 +57,7 @@ const songs = [
       { voice: 'Bass', names: 'Oak' },
       { voice: 'VP', names: 'Garrick' },
     ],
-    description: 'A love letter to NUS Resonance, this piece reflects upon the solace this club has provided us after long days at school or work. While the original discusses the comfort of family, arranger Marvin re-interprets the song to express his gratitude to the NUS Resonance family and the safe space it has provided for its members to flourish. Listen out for the interpolation of “Valerie” by Mark Ronson and Amy Winehouse, a song which has been covered by many generations of Resonance members as part of the Resonance First-Year (RFY) course!',
+    description: "A love letter to NUS Resonance, this piece reflects upon the solace this club has provided us after long days at school or work. While the original discusses the comfort of family, arranger Marvin re-interprets the song to express his gratitude to the NUS Resonance family and the safe space it has provided for its members to flourish. Listen out for the interpolation of “Valerie” by Mark Ronson and Amy Winehouse, a song which has been covered by many generations of Resonance members as part of the Resonance First-Year (RFY) course! Fun fact: In the prechorus, grentperez sings, 'take me back to ‘01, where life just begun.' Guess which a cappella club also began its life in ‘01? (Happy 25th, Reso!)",
     images: [
        {image: '/images/act4/wttid_group.jpg'},
        {image: '/images/act4/wttid_2.jpg'},
@@ -127,7 +127,7 @@ const songs = [
       'Eunice',
       'Vienna'
     ],
-    description: '“Another Day of the Sun” brings a grand end to Odyssey, but certainly not the end of our journey. Hailing from the movie La La Land, this piece is a vibrant tribute to dreamers in you. Set against the story backdrop of an aspiring artist, and interwoven with a brief return to “Epilogue” from La La Land, this finale captures our members’ hard work, perseverance, and shared memories culminating in this concert, and a promise that new hope will arise as we pick up pace again next year.  As the final chords ring out, we hope this journey reminds you that even amidst uncertainty, there will always be another song to sing, another stage to stand on, and another day of sun waiting just beyond the horizon.',
+    description: '“Another Day of the Sun” brings a grand end to Odyssey, but certainly not the end of our journey. Hailing from the movie La La Land, this piece is a vibrant tribute to dreamers in you. Set against the story backdrop of an aspiring artist, and interwoven with a brief return to “Epilogue” from La La Land, this finale captures our members’ hard work, perseverance, and shared memories that created this concert. As the final chords ring out, we hope that you feel the same as us: happy, fulfilled and expectant for the next journey to start!',
   }
 ];
 
