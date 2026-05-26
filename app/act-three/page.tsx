@@ -19,7 +19,7 @@ const songs = [
       { voice: 'Bass', names: 'Zacharius' },
       { voice: 'VP', names: 'Ian' },
     ],
-    description: "Originally written and performed by Tom Cochrane in 1991 and covered by Rascal Flatts for the Pixar animated film Cars (2006), 'Life Is a Highway' is a carefree embrace of all of life's twists and turns, and the joy that comes with riding it out with the people you love. This a cappella rendition leans into fun and exuberance, pulling inspiration from Alex Melton's pop-punk cover of the song and iconic boy bands like *NSYNC, Backstreet Boys, and The Treblemakers, as well as featuring several cheeky easter eggs from various songs about... well, cars. ᵏᵃ⁻ᶜʰᵒʷ⚡️",
+    description: `Originally written and performed by Tom Cochrane in 1991 and covered by Rascal Flatts for the Pixar animated film Cars (2006), "Life Is a Highway" is a carefree embrace of all of life's twists and turns, and the joy that comes with riding it out with the people you love. This a cappella rendition leans into fun and exuberance, pulling inspiration from Alex Melton's pop-punk cover of the song and iconic boy bands like *NSYNC, Backstreet Boys, and The Treblemakers, as well as featuring several cheeky easter eggs from various songs about... well, cars. ᵏᵃ⁻ᶜʰᵒʷ⚡️`,
     images: [
        {image: '/images/act3/highway_group.jpg'},
        {image: '/images/act3/highway_2.jpg'},
