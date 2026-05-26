@@ -66,26 +66,8 @@ export default function About() {
             .
           </p>
           <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.7)', fontStyle: 'italic' }}>
-            NUS Resonance performs regularly for school, corporate and other events, including gala dinners and appreciation nights. Below are some notable clients that we have worked with:
+            NUS Resonance performs regularly for school, corporate and other events, including gala dinners and appreciation nights. Please contact us if you would like to find out more!
           </p>
-        </div>
-        <div
-          style={{
-            position: 'relative',
-            width: '100%',
-            aspectRatio: '16/9',
-            marginTop: '3rem',
-            borderRadius: '2px',
-            overflow: 'hidden',
-            border: '1px solid rgba(201,168,76,0.2)',
-          }}
-        >
-          <Image
-            src="/images/partners.jpg"
-            alt="NUS Resonance Collabs"
-            fill
-            style={{ objectFit: 'cover' }}
-          />
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '4rem', paddingTop: '2rem', borderTop: '1px solid rgba(201,168,76,0.15)' }}>
