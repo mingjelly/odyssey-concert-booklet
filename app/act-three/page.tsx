@@ -15,7 +15,7 @@ const songs = [
       { voice: 'Tenor 3', names: 'Xavier' },
       { voice: 'Tenor 4', names: 'Matthew' },
       { voice: 'Baritone 1', names: 'Nicky' },
-      { voice: 'Baritone 2', names: 'Dave' },
+      { voice: 'Baritone 2', names: 'Oak' },
       { voice: 'Bass', names: 'Zacharius' },
       { voice: 'VP', names: 'Ian' },
     ],
