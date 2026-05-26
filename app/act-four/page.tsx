@@ -106,7 +106,7 @@ const songs = [
     originalBy: 'La La Land',
     arranger: 'Napin Limcharoen and Oliver Li',
     cast: [
-      { voice: 'Soprano', names:'Hao Rui' },
+      { voice: 'Soprano', names:'Haorui' },
       { voice: 'Mezzo', names:'Shennon' },
       { voice: 'Alto', names:'Katherine' },
       { voice: 'Tenor', names:'Ming Yang' },
