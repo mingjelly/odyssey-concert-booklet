@@ -10,7 +10,10 @@ const sections = [
   },
   {
     title: 'Sound',
-    items: [{ name: 'Steven Cheong' }],
+    items: [
+      {name: 'Steven Cheong' },
+      {name: 'Raymond Chan'}
+    ],
   },
   {
     title: 'Lighting',
