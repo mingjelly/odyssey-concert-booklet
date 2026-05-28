@@ -18,6 +18,21 @@ export default function HomePage() {
   return (
     <main style={{ minHeight: '100vh', background: 'var(--dark)', position: 'relative' }}>
 
+    {/* Strobe warning */}
+    <div style={{
+      background: 'rgba(201,168,76,0.08)',
+      borderBottom: '1px solid rgba(201,168,76,0.2)',
+      padding: '0.75rem 2rem',
+      textAlign: 'center',
+    }}>
+      <p style={{
+        fontFamily: 'EB Garamond, serif', fontSize: '0.9rem',
+        color: 'rgba(245,240,232,0.6)', letterSpacing: '0.04em',
+        fontStyle: 'italic', margin: 0,
+      }}>
+        Please note that this production contains strobe lighting and themes that may be emotionally sensitive for some viewers.
+      </p>
+    </div>
     {/* Hero */}
     <div
       style={{
