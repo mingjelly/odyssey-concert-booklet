@@ -235,18 +235,23 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Footer */}
+    {/* Footer */}
+    <div style={{
+      textAlign: 'center', padding: '2rem',
+      borderTop: '1px solid rgba(201,168,76,0.12)',
+    }}>
       <div style={{
-        textAlign: 'center', padding: '2rem',
-        borderTop: '1px solid rgba(201,168,76,0.12)',
+        fontFamily: 'Cormorant Garamond, serif', fontStyle: 'italic',
+        fontSize: '0.9rem', color: 'rgba(245,240,232,0.2)', letterSpacing: '0.08em',
+        marginBottom: '1rem',
       }}>
-        <div style={{
-          fontFamily: 'Cormorant Garamond, serif', fontStyle: 'italic',
-          fontSize: '0.9rem', color: 'rgba(245,240,232,0.2)', letterSpacing: '0.08em',
-        }}>
-          NUS Resonance · 2026
-        </div>
+        NUS Resonance · 2026
       </div>
+      
+    <a href="https://forms.gle/dHyjicZqxp5HGUpS7" target="_blank" rel="noopener noreferrer" className="nav-btn">
+      Share Your Feedback
+    </a>
+    </div>
 
     </main>
   );
