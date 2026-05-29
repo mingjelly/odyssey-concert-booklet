@@ -35,7 +35,7 @@ export default function Foreword() {
           </p>
 
           <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.6)', fontStyle: 'italic' }}>
-            Being in NUS Resonance has been somewhat of a personal odyssey for me. As a newcomer to a cappella, I never expected to find a place where my voice would feel so at home. After three years of learning and growing as a singer, I look back and am amazed by how much this community has shaped me, More than just the music, the passion, talent, and camaraderie in Resonance is truly something special, and I will forever be grateful to have been given the chance to be here.
+            Being in NUS Resonance has been somewhat of a personal odyssey for me. As a newcomer to a cappella, I never expected to find a place where my voice would feel so at home. After three years of learning and growing as a singer, I look back and am amazed by how much this community has shaped me. More than just the music, the passion, talent, and camaraderie in Resonance is truly something special, and I will forever be grateful to have been given the chance to be here.
           </p>
 
           <p style={{ marginBottom: '1.5rem', color: 'rgba(245,240,232,0.6)', fontStyle: 'italic' }}>
