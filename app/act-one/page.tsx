@@ -27,7 +27,7 @@ const songs = [
       { voice: 'Bass', names: 'Justin' },
       { voice: 'VP', names: 'Lei' },
     ],
-    description: 'Opening the concert is “The Greatest Show”, a rendition of the exhilarating opening number of the movie The Greatest Showman. This piece encapsulates the longing for one’s dream and passion, a celebration of the richness and diversity of experience that culminates in this one grand show. Arranger Isaac brings forward this feeling of unity and diversity through contrasting powerful chants in unison with overflowing counter-melodies, setting the tone of this Odyssey with a festive, jubilant beginning. ',
+    description: '“The Greatest Show” is the exhilarating song from the movie The Greatest Showman. This piece is a celebration of one’s dreams, of achieving the impossible. As the opening number of the night, the song sets the stage for our Odyssey, a vibrant journey of passion and discovery. \n\nThis a cappella rendition, arranged by Isaac, also features other iconic songs from The Greatest Showman, bringing together the theme of pursuing one’s goals. Through the contrast of powerful chants with flowing counter-melodies, the song evokes a feeling of awe and wonder in the audience.',
     images: [
        {image: '/images/act1/showman_group.jpg'},
        {image: '/images/act1/showman_2.jpg'},
@@ -47,7 +47,7 @@ const songs = [
       { voice: 'Bass', names: 'Derek' },
       { voice: 'VP', names: 'Ian' },
     ],
-    description: 'Dive into the upbeat groove of Odyssey with “Classic”, originally performed by American pop music duo MKTO. A mashup with Jackson 5’s “I Want You Back”,  arranger Marvin infuses this piece with signature motifs from iconic Motown, funk, and R&B artists, such as Michael Jackson and Prince. To all the timeless beauties in the crowd: get ready to be serenaded by our very own boy band! ',
+    description: '“Classic” brings an upbeat groove to the first act of Odyssey. Originally performed by American pop music duo MKTO, this piece acts as a serenade to timeless beauties by referencing iconic celebrities and artistes of the past. \n\nArranger Marvin infuses this rendition with signature motifs from famous Motown, funk, and R&B artists such as Michael Jackson and Prince, bringing a fresh but on-theme twist. He also includes a mashup with Jackson 5’s “I Want You Back”, bringing a sugar-sweet yearning that seeks to sweep the audience off their feet.',
     images: [
        {image: '/images/act1/classic_group.jpg'},
        {image: '/images/act1/classic_2.jpg'},
@@ -67,7 +67,7 @@ const songs = [
       { voice: 'Bass', names: 'Josiah' },
       { voice: 'VP', names: 'Xiang Rong' },
     ],
-    description: '“Hypotheticals” by Lake Street Dive is a playful song envisioning the plethora of what-ifs that entail from a potential romantic relationship and the courage to face those uncertainties.  Arranged by Sherwin, this rendition aims to bring out a sense of fun and youthful expression from the singers, a spirit we hope will be shared with the audience as well. ',
+    description: '“Hypotheticals” by Lake Street Dive is a playful song about the rollercoaster of emotions one goes through while having a crush. From envisioning a myriad of what-ifs, to finding the courage to take action, this piece encapsulates a familiar experience reminiscent of adolescence.\n\nArranged by Sherwin, this rendition introduces a swing section and light, rhythmic vocals, driving home the fuzzy feeling associated with infatuation. It aims to bring out a sense of fun and youthful expression from the vocalists, a spirit we hope will be shared with the audience as well.',
     images: [
        {image: '/images/act1/hypo_group.jpg'},
        {image: '/images/act1/hypo_2.jpg'},
@@ -87,7 +87,7 @@ const songs = [
       { voice: 'Bass', names: 'Howie' },
       { voice: 'VP', names: 'Ryan' },
     ],
-    description: 'Originally performed by Indonesian singers Raisa and Isyana Sarasvati, “Anganku Anganmu” is a piece that advocates for overcoming differences and meaningless arguments among friends. Arranged by Vicelya, its evocative duets backed by layered background voices depict the strength of friendship and unity of ideas, both powerful tools used to overcome challenges and work towards one single purpose. ',
+    description: 'Originally performed by Indonesian singers Raisa and Isyana Sarasvati, “Anganku Anganmu” is a piece that advocates for overcoming differences and meaningless arguments among friends. It highlights the importance of forgiveness and communication, in order to forge closer relationships with the people around us.\n\nArranged by Vicelya, its expressive duets backed by layered background voices depict the strength of friendship and unity of ideas, both powerful tools used to overcome challenges and work towards one single purpose.',
     images: [
        {image: '/images/act1/anganku_group.jpg'},
        {image: '/images/act1/anganku_2.jpg'},
@@ -110,7 +110,7 @@ const songs = [
       { voice: 'Bass', names: 'Bryan' },
       { voice: 'VP', names: 'Ian' },
     ],
-    description: 'British singer RAYE’s “WHERE IS MY HUSBAND!” is a riveting piece mixing R&B and pop tracks that explores the longing for a husband, intertwined with the frustration and exasperation that can come with the search for love. Gabriel’s a cappella rendition of this song builds on its already clever writing, reimagining in a way that highlights Resonance’s greatest strength, its brilliantly creative members, to bring new colour and character to the song.',
+    description: '“WHERE IS MY HUSBAND!” is a riveting piece, by British singer-songwriter RAYE, that mixes R&B and jazz-pop genres. It explores the longing for a partner, intertwined with the frustration of finding someone who checks all the boxes. This frustration is playfully portrayed in the iconic line, “I would like a ring!”.\n\nGabriel’s a cappella arrangement builds on the song’s already clever writing and lively music, retaining its bombastic energy with big band style background vocalists. He also reimagines it in a way that highlights Resonance’s greatest strength, its brilliantly creative members, to bring new colour and character to the song. The audience will surely enjoy the journey that this arrangement takes them on.',
     images: [
        {image: '/images/act1/husband_group.jpg'},
        {image: '/images/act1/husband_2.jpg'},

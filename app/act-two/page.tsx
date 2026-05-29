@@ -16,7 +16,7 @@ const songs = [
       { voice: 'Tenor', names: 'Marvin' },
       { voice: 'Bass', names: 'Isaac Lee' }
     ],
-    description: 'Originally performed by Billie Eilish, “WILDFLOWER” is a solemn piece recounting her experience in consoling a heartbroken friend whilst being in a relationship with her friend’s partner in the future. It is a heartbreaking tale of guilt and isolation, conveyed through layered, complex harmonies. Arranger Hao Ming’s deliberate choice to not include a vocal percussion part further brings out the raw emotions from the vocalists, immersing the audience with sorrow.',
+    description: 'The second act of Odyssey opens with “WILDFLOWER”, a heartbreaking tale of loving someone who still carries the shadow of a past love, and the accompanying guilt and isolation. This idea of being placed in tumultuous circumstances and having to navigate them encapsulates the theme of Act II: Flux.\n\nThis piece, arranged by Hao Ming, lacks a vocal percussionist, putting the focus onto the layered and complex harmonies. This brings out the raw emotions from the vocalists, immersing the audience in sorrow and agony.',
     images: [
        {image: '/images/act2/wildflower_group.jpg'},
        {image: '/images/act2/wildflower_2.jpg'},
@@ -36,7 +36,7 @@ const songs = [
       { voice: 'Bass', names: 'Bryan' },
       { voice: 'VP', names: 'Edlyn' },
     ],
-    description: 'Nicolina is no stranger to false hope and mixed signals; “Situations” explores the longing for a deeper connection in a situationship but realising that it’s always going to be out of your reach, leaving one just shy of true catharsis.',
+    description: 'Originally performed by Nicolina, “Situations” explores the highs, the lows, the twists and turns of a situationship. The song describes someone who is in constant turmoil of false expectations, yet unable to move on from it due to the excitement it brings.\n\nJia Yu’s a cappella rendition heightens the distress with clashing dissonant chords. However, he still maintains the intensity of the original song through the inclusion of powerful belts and synchronized choruses.',
     images: [
        {image: '/images/act2/situations_group.jpg'},
        {image: '/images/act2/situations_2.jpg'},
@@ -56,7 +56,7 @@ const songs = [
       { voice: 'Bass', names: 'You Hung' },
       { voice: 'VP', names: 'Lei' },
     ],
-    description: '讨厌 (“Can’t Stand It”) performed by Singaporean singer Rui En is an upbeat pop-R&B track that describes the frustration of being with a partner who treats love like a game. It captures the emotional exhaustion of being stuck in a one-sided relationship, sung beautifully by its soloists across rhythmic, catchy beats and soothing melodies.',
+    description: '讨厌 (“Can’t Stand It”), originally performed by Singaporean singer Rui En, is an upbeat pop-R&B track that describes the frustration of being with a partner who treats love like a game. It captures the emotional exhaustion of being stuck in a one-sided relationship, falling out of love and eventually leaving.\n\nKyla preserves the Y2K Mandopop style of this piece through funky chords and a music video-esque monologue. The rhythmic beats and catchy melodies bring a contrasting lightness to an otherwise unpleasant experience.',
     images: [
        {image: '/images/act2/taoyan_group.jpg'},
        {image: '/images/act2/taoyan_2.jpg'},
@@ -76,7 +76,7 @@ const songs = [
       { voice: 'Bass', names: 'Josiah' },
       { voice: 'VP', names: 'Ryan' },
     ],
-    description: 'Originally performed by Teddy Swims, “The Door” is a powerful reflection on saving one’s life by walking away from an abusive relationship. The arrangers, Krystal and Xavier, add an imaginative twist to the piece, with the arrangement featuring two halves of a couple, taking turns telling their side of the story theatrically. This brings out the messy drama and the fallout of a broken relationship that the audience will definitely enjoy.',
+    description: 'Originally performed by Teddy Swims, “The Door” is a powerful reflection on protecting one’s sanity by walking away from an abusive relationship. It emphasizes the importance of loving oneself, recognizing when a relationship is no longer healthy and resolutely cutting ties.\n\nThe arrangers, Krystal and Xavier, add an imaginative twist to the piece, with the arrangement featuring two halves of a couple, taking turns telling their side of the story theatrically. This brings out the messy drama and the fallout of a broken relationship.',
     images: [
        {image: '/images/act2/door_group.jpg'},
        {image: '/images/act2/door_2.jpg'},
@@ -99,7 +99,7 @@ const songs = [
       { voice: 'Bass', names: 'Matthew Loh' },
       { voice: 'VP', names: 'Garrick' },
     ],
-    description: 'Originally performed by the Norwegian artist AURORA, this atmospheric piece spoke of the immense pain that we go through in life and the longing desire for protection from this pain. Its lyrics hope for a peaceful sanctuary from the chaos of the world, and sing of the belief that love is the shelter that is required. Arranger Sunny utilises the full extent of the human voice, from haunting whispers to thundering chants, in this a cappella rendition to enhance the ethereal nature of the song.',
+    description: 'Originally performed by the Norwegian artist AURORA, this atmospheric piece speaks of the immense pain that one goes through in life and the longing desire for protection from this pain. Its lyrics hope for a peaceful sanctuary from the chaos of the world, and sing of the belief that love is the shelter that is required.\n\nSunny utilises the full extent of the human voice, from haunting whispers to thundering chants, in this 9-part a cappella rendition to enhance the ethereal nature of the song. The dramatic energy changes throughout this arrangement brings a new depth to this piece.',
     images: [
        {image: '/images/act2/softuni_group.jpg'},
        {image: '/images/act2/softuni_2.jpg'},
