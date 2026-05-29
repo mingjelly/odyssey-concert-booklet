@@ -129,19 +129,24 @@ export default function SongCard({ number, title, images, originalBy, medley, ar
 
       {/* Programme notes */}
       <div>
-        <p style={{
-          fontFamily: 'Cinzel, serif', fontSize: '0.58rem', letterSpacing: '0.25em',
-          color: 'rgba(201,168,76,0.8)', textTransform: 'uppercase', marginBottom: '0.6rem',
-        }}>
-          Programme Notes
-        </p>
-        <p style={{
-          fontFamily: 'EB Garamond, serif', fontSize: '1.05rem', lineHeight: 2,
-          color: description ? 'rgba(245,240,232,0.8)' : 'rgba(245,240,232,0.22)',
-          fontStyle: description ? 'normal' : 'italic', margin: 0,
-        }}>
-          {description || 'Programme notes to be added.'}
-        </p>
+        {description
+          ? description.split('\n\n').map((para, i) => (
+              <p key={i} style={{
+                fontFamily: 'EB Garamond, serif', fontSize: '1.05rem', lineHeight: 2,
+                color: 'rgba(245,240,232,0.8)', margin: '0 0 1rem 0',
+              }}>
+                {para}
+              </p>
+            ))
+          : (
+            <p style={{
+              fontFamily: 'EB Garamond, serif', fontSize: '1.05rem', lineHeight: 2,
+              color: 'rgba(245,240,232,0.22)', fontStyle: 'italic', margin: 0,
+            }}>
+              Programme notes to be added.
+            </p>
+          )
+        }
       </div>
 
       {/* YouTube embed */}

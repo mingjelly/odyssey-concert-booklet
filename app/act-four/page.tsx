@@ -57,7 +57,7 @@ const songs = [
       { voice: 'Bass', names: 'Oak' },
       { voice: 'VP', names: 'Garrick' },
     ],
-    description: "Originally performed by grentperez, “When the Day is Done” is a bright, feel-good track that celebrates the idea that “there’s no place like home”. Its lyrics paint a vivid picture evocative of childhood memories and sun-soaked days.\n\nThis arrangement reflects upon the solace this club has provided its members after long days at school or work. Marvin invokes a sense of nostalgia by weaving in segments of “Valerie” by Mark Ronson and Amy Winehouse, a staple song in the club’s training programme for new members.",
+    description: "Originally performed by grentperez, “When the Day is Done” is a bright, feel-good track that celebrates the idea that “there’s no place like home”. Its lyrics paint a vivid picture evocative of childhood memories and sun-soaked days.\n\nThis arrangement by Marvin is a dedication and love letter to NUS Resonance as a safe space for members to flourish. It reflects upon the solace this club has provided to all members after long days at school or work. He creates a sense of nostalgia by weaving in segments of “Valerie” by Mark Ronson and Amy Winehouse, a staple song in the club’s training programme for new members.",
     images: [
        {image: '/images/act4/wttid_group.jpg'},
        {image: '/images/act4/wttid_2.jpg'},
